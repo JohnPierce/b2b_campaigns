@@ -1,0 +1,471 @@
+[
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 1,
+        "fields": {
+            "name": "TSMC 180nm",
+            "description": "TSMC 180nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 2,
+        "fields": {
+            "name": "TSMC 130nm",
+            "description": "TSMC 130nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 3,
+        "fields": {
+            "name": "TSMC 90nm",
+            "description": "TSMC 90nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 4,
+        "fields": {
+            "name": "TSMC 65nm",
+            "description": "TSMC 65nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 5,
+        "fields": {
+            "name": "TSMC 40nm",
+            "description": "TSMC 40nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 6,
+        "fields": {
+            "name": "TSMC 28nm",
+            "description": "TSMC 28nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 7,
+        "fields": {
+            "name": "TSMC 20nm",
+            "description": "TSMC 20nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 8,
+        "fields": {
+            "name": "TSMC 16nm",
+            "description": "TSMC 16nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 9,
+        "fields": {
+            "name": "TSMC 10nm",
+            "description": "TSMC 10nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 10,
+        "fields": {
+            "name": "TSMC 7nm",
+            "description": "TSMC 7nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 11,
+        "fields": {
+            "name": "TSMC 7nm LPP",
+            "description": "TSMC 7nm LPP process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 12,
+        "fields": {
+            "name": "TSMC 5nm",
+            "description": "TSMC 5nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 13,
+        "fields": {
+            "name": "TSMC 3nm",
+            "description": "TSMC 3nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 14,
+        "fields": {
+            "name": "TSMC 2nm",
+            "description": "TSMC 2nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 15,
+        "fields": {
+            "name": "TSMC 1.4nm",
+            "description": "TSMC 1.4nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 16,
+        "fields": {
+            "name": "Samsung 14nm LPP",
+            "description": "Samsung 14nm LPP process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 17,
+        "fields": {
+            "name": "Samsung 10nm",
+            "description": "Samsung 10nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 18,
+        "fields": {
+            "name": "Samsung 7nm",
+            "description": "Samsung 7nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 19,
+        "fields": {
+            "name": "Samsung 5nm",
+            "description": "Samsung 5nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 20,
+        "fields": {
+            "name": "Samsung 3nm",
+            "description": "Samsung 3nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 21,
+        "fields": {
+            "name": "Samsung 2nm",
+            "description": "Samsung 2nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 22,
+        "fields": {
+            "name": "Samsung 1.4nm",
+            "description": "Samsung 1.4nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 23,
+        "fields": {
+            "name": "UMC 180nm",
+            "description": "UMC 180nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 24,
+        "fields": {
+            "name": "UMC 90nm",
+            "description": "UMC 90nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 25,
+        "fields": {
+            "name": "UMC 65nm",
+            "description": "UMC 65nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 26,
+        "fields": {
+            "name": "UMC 40nm",
+            "description": "UMC 40nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 27,
+        "fields": {
+            "name": "UMC 28nm",
+            "description": "UMC 28nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 28,
+        "fields": {
+            "name": "TowerJazz 180nm",
+            "description": "TowerJazz 180nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 29,
+        "fields": {
+            "name": "TowerJazz 130nm",
+            "description": "TowerJazz 130nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 30,
+        "fields": {
+            "name": "TowerJazz 65nm",
+            "description": "TowerJazz 65nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 31,
+        "fields": {
+            "name": "Intel 22nm",
+            "description": "Intel 22nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 32,
+        "fields": {
+            "name": "Intel 14nm",
+            "description": "Intel 14nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 33,
+        "fields": {
+            "name": "Intel 10SF",
+            "description": "Intel 10SF process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 34,
+        "fields": {
+            "name": "Intel 7",
+            "description": "Intel 7 process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 35,
+        "fields": {
+            "name": "Intel 4",
+            "description": "Intel 4 process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 36,
+        "fields": {
+            "name": "Intel 3",
+            "description": "Intel 3 process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 37,
+        "fields": {
+            "name": "Intel 20A",
+            "description": "Intel 20A process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 38,
+        "fields": {
+            "name": "Intel 18A",
+            "description": "Intel 18A process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 39,
+        "fields": {
+            "name": "GlobalFoundries 28nm",
+            "description": "GlobalFoundries 28nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 40,
+        "fields": {
+            "name": "GlobalFoundries 14nm",
+            "description": "GlobalFoundries 14nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 41,
+        "fields": {
+            "name": "GlobalFoundries 12nm",
+            "description": "GlobalFoundries 12nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 42,
+        "fields": {
+            "name": "GlobalFoundries 7nm",
+            "description": "GlobalFoundries 7nm process node.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 43,
+        "fields": {
+            "name": "Xilinx Virtex",
+            "description": "Xilinx Virtex FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 44,
+        "fields": {
+            "name": "Xilinx Kintex",
+            "description": "Xilinx Kintex FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 45,
+        "fields": {
+            "name": "Xilinx Artix",
+            "description": "Xilinx Artix FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 46,
+        "fields": {
+            "name": "Xilinx Zynq",
+            "description": "Xilinx Zynq FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 47,
+        "fields": {
+            "name": "Xilinx Spartan",
+            "description": "Xilinx Spartan FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 48,
+        "fields": {
+            "name": "Altera Cyclone",
+            "description": "Altera Cyclone FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 49,
+        "fields": {
+            "name": "Altera Arria",
+            "description": "Altera Arria FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 50,
+        "fields": {
+            "name": "Altera Stratix",
+            "description": "Altera Stratix FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 51,
+        "fields": {
+            "name": "Microsemi ProASIC3",
+            "description": "Microsemi ProASIC3 FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.semiconductorfpgaplatform",
+        "pk": 52,
+        "fields": {
+            "name": "Microsemi IGLOO",
+            "description": "Microsemi IGLOO FPGA platform.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    }
+]
+

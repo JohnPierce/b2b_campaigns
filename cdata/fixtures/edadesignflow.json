@@ -1,0 +1,110 @@
+[
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 1,
+        "fields": {
+            "name": "High-Level Synthesis Flow",
+            "description": "This involves the creation of RTL designs from high-level programming languages such as C, C++, and SystemC.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 2,
+        "fields": {
+            "name": "RTL Design Flow",
+            "description": "This involves the design of circuits using hardware description languages (HDLs) such as VHDL and Verilog.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 3,
+        "fields": {
+            "name": "Functional Verification Flow",
+            "description": "This involves simulation, formal verification, and emulation to confirm that the design behaves as expected.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 4,
+        "fields": {
+            "name": "Synthesis Flow",
+            "description": "This involves translating RTL designs into gate-level representations.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 5,
+        "fields": {
+            "name": "Place and Route Flow",
+            "description": "This involves the process of arranging the layout of a chip, including the placement of cells and routing of interconnects.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 6,
+        "fields": {
+            "name": "Timing Analysis Flow",
+            "description": "This involves checking that the design meets its timing requirements.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 7,
+        "fields": {
+            "name": "Physical Verification Flow",
+            "description": "This involves checking for layout-versus-schematics (LVS), design rule checking (DRC), and electrical rule checking (ERC).",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 8,
+        "fields": {
+            "name": "System-on-Chip (SoC) Design Flow",
+            "description": "This involves the integration of multiple IP cores into a single chip.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 9,
+        "fields": {
+            "name": "Multi-Chip Module (MCM) Design Flow",
+            "description": "This involves the integration of multiple dies into a single package.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 10,
+        "fields": {
+            "name": "Printed Circuit Board (PCB) Design Flow",
+            "description": "This involves the design and layout of PCBs.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 11,
+        "fields": {
+            "name": "Hard IP Core Flow",
+            "description": "This involves the design of cores that are delivered as a physical layout.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.edadesignflow",
+        "pk": 12,
+        "fields": {
+            "name": "Soft IP Core Flow",
+            "description": "This involves the design of cores that are delivered as RTL.",
+            "created_at": "2021-07-01T00:00:00Z"
+        }
+    }
+]

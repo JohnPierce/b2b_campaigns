@@ -1,0 +1,38 @@
+[
+    {
+        "model": "cdata.supplier",
+        "pk": 1,
+        "fields": {
+            "name": "Cadence Design Systems"
+        }
+    },
+    {
+        "model": "cdata.supplier",
+        "pk": 2,
+        "fields": {
+            "name": "Siemens DISW"
+        }
+    },
+    {
+        "model": "cdata.supplier",
+        "pk": 3,
+        "fields": {
+            "name": "Synopsys"
+        }
+    },
+    {
+        "model": "cdata.supplier",
+        "pk": 4,
+        "fields": {
+            "name": "Keysight Technologies"
+        }
+    },
+    {
+        "model": "cdata.supplier",
+        "pk": 5,
+        "fields": {
+            "name": "Ansys"
+        }
+    }
+]
+
