@@ -14,8 +14,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include # new
+from django.conf import settings
+from django.conf.urls.static import static
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
+    path('', include('cdata.urls')), # new
+    path('', include('django.contrib.auth.urls')), # new
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # new
+
+admin.site.site_header = "B2B Campaigns Admin"
+admin.site.site_title = "B2B Campaigns Admin Portal"
+admin.site.index_title = "Welcome to B2B Campaigns Portal"

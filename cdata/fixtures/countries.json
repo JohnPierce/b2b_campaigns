@@ -1,0 +1,2686 @@
+[
+    {
+        "model": "cdata.Country",
+        "pk": 1,
+        "fields": {
+            "abbreviation": "AD",
+            "latitude": "42.546245",
+            "longitude": "1.601554",
+            "name": "Andorra",
+            "created_at": "2023-06-12T17:27:15.652892"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 2,
+        "fields": {
+            "abbreviation": "AE",
+            "latitude": "23.424076",
+            "longitude": "53.847818",
+            "name": "United Arab Emirates",
+            "created_at": "2023-06-12T17:27:15.652918"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 3,
+        "fields": {
+            "abbreviation": "AF",
+            "latitude": "33.93911",
+            "longitude": "67.709953",
+            "name": "Afghanistan",
+            "created_at": "2023-06-12T17:27:15.652927"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 4,
+        "fields": {
+            "abbreviation": "AG",
+            "latitude": "17.060816",
+            "longitude": "-61.796428",
+            "name": "Antigua and Barbuda",
+            "created_at": "2023-06-12T17:27:15.652934"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 5,
+        "fields": {
+            "abbreviation": "AI",
+            "latitude": "18.220554",
+            "longitude": "-63.068615",
+            "name": "Anguilla",
+            "created_at": "2023-06-12T17:27:15.652940"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 6,
+        "fields": {
+            "abbreviation": "AL",
+            "latitude": "41.153332",
+            "longitude": "20.168331",
+            "name": "Albania",
+            "created_at": "2023-06-12T17:27:15.652947"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 7,
+        "fields": {
+            "abbreviation": "AM",
+            "latitude": "40.069099",
+            "longitude": "45.038189",
+            "name": "Armenia",
+            "created_at": "2023-06-12T17:27:15.652952"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 8,
+        "fields": {
+            "abbreviation": "AN",
+            "latitude": "12.226079",
+            "longitude": "-69.060087",
+            "name": "Netherlands Antilles",
+            "created_at": "2023-06-12T17:27:15.652962"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 9,
+        "fields": {
+            "abbreviation": "AO",
+            "latitude": "-11.202692",
+            "longitude": "17.873887",
+            "name": "Angola",
+            "created_at": "2023-06-12T17:27:15.652972"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 10,
+        "fields": {
+            "abbreviation": "AQ",
+            "latitude": "-75.250973",
+            "longitude": "-0.071389",
+            "name": "Antarctica",
+            "created_at": "2023-06-12T17:27:15.652984"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 11,
+        "fields": {
+            "abbreviation": "AR",
+            "latitude": "-38.416097",
+            "longitude": "-63.616672",
+            "name": "Argentina",
+            "created_at": "2023-06-12T17:27:15.652995"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 12,
+        "fields": {
+            "abbreviation": "AS",
+            "latitude": "-14.270972",
+            "longitude": "-170.132217",
+            "name": "American Samoa",
+            "created_at": "2023-06-12T17:27:15.653003"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 13,
+        "fields": {
+            "abbreviation": "AT",
+            "latitude": "47.516231",
+            "longitude": "14.550072",
+            "name": "Austria",
+            "created_at": "2023-06-12T17:27:15.653010"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 14,
+        "fields": {
+            "abbreviation": "AU",
+            "latitude": "-25.274398",
+            "longitude": "133.775136",
+            "name": "Australia",
+            "created_at": "2023-06-12T17:27:15.653020"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 15,
+        "fields": {
+            "abbreviation": "AW",
+            "latitude": "12.52111",
+            "longitude": "-69.968338",
+            "name": "Aruba",
+            "created_at": "2023-06-12T17:27:15.653031"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 16,
+        "fields": {
+            "abbreviation": "AZ",
+            "latitude": "40.143105",
+            "longitude": "47.576927",
+            "name": "Azerbaijan",
+            "created_at": "2023-06-12T17:27:15.653041"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 17,
+        "fields": {
+            "abbreviation": "BA",
+            "latitude": "43.915886",
+            "longitude": "17.679076",
+            "name": "Bosnia and Herzegovina",
+            "created_at": "2023-06-12T17:27:15.653052"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 18,
+        "fields": {
+            "abbreviation": "BB",
+            "latitude": "13.193887",
+            "longitude": "-59.543198",
+            "name": "Barbados",
+            "created_at": "2023-06-12T17:27:15.653062"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 19,
+        "fields": {
+            "abbreviation": "BD",
+            "latitude": "23.684994",
+            "longitude": "90.356331",
+            "name": "Bangladesh",
+            "created_at": "2023-06-12T17:27:15.653073"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 20,
+        "fields": {
+            "abbreviation": "BE",
+            "latitude": "50.503887",
+            "longitude": "4.469936",
+            "name": "Belgium",
+            "created_at": "2023-06-12T17:27:15.653083"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 21,
+        "fields": {
+            "abbreviation": "BF",
+            "latitude": "12.238333",
+            "longitude": "-1.561593",
+            "name": "Burkina Faso",
+            "created_at": "2023-06-12T17:27:15.653120"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 22,
+        "fields": {
+            "abbreviation": "BG",
+            "latitude": "42.733883",
+            "longitude": "25.48583",
+            "name": "Bulgaria",
+            "created_at": "2023-06-12T17:27:15.653137"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 23,
+        "fields": {
+            "abbreviation": "BH",
+            "latitude": "25.930414",
+            "longitude": "50.637772",
+            "name": "Bahrain",
+            "created_at": "2023-06-12T17:27:15.653144"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 24,
+        "fields": {
+            "abbreviation": "BI",
+            "latitude": "-3.373056",
+            "longitude": "29.918886",
+            "name": "Burundi",
+            "created_at": "2023-06-12T17:27:15.653150"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 25,
+        "fields": {
+            "abbreviation": "BJ",
+            "latitude": "9.30769",
+            "longitude": "2.315834",
+            "name": "Benin",
+            "created_at": "2023-06-12T17:27:15.653156"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 26,
+        "fields": {
+            "abbreviation": "BM",
+            "latitude": "32.321384",
+            "longitude": "-64.75737",
+            "name": "Bermuda",
+            "created_at": "2023-06-12T17:27:15.653162"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 27,
+        "fields": {
+            "abbreviation": "BN",
+            "latitude": "4.535277",
+            "longitude": "114.727669",
+            "name": "Brunei",
+            "created_at": "2023-06-12T17:27:15.653169"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 28,
+        "fields": {
+            "abbreviation": "BO",
+            "latitude": "-16.290154",
+            "longitude": "-63.588653",
+            "name": "Bolivia",
+            "created_at": "2023-06-12T17:27:15.653175"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 29,
+        "fields": {
+            "abbreviation": "BR",
+            "latitude": "-14.235004",
+            "longitude": "-51.92528",
+            "name": "Brazil",
+            "created_at": "2023-06-12T17:27:15.653181"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 30,
+        "fields": {
+            "abbreviation": "BS",
+            "latitude": "25.03428",
+            "longitude": "-77.39628",
+            "name": "Bahamas",
+            "created_at": "2023-06-12T17:27:15.653187"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 31,
+        "fields": {
+            "abbreviation": "BT",
+            "latitude": "27.514162",
+            "longitude": "90.433601",
+            "name": "Bhutan",
+            "created_at": "2023-06-12T17:27:15.653223"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 32,
+        "fields": {
+            "abbreviation": "BV",
+            "latitude": "-54.423199",
+            "longitude": "3.413194",
+            "name": "Bouvet Island",
+            "created_at": "2023-06-12T17:27:15.653232"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 33,
+        "fields": {
+            "abbreviation": "BW",
+            "latitude": "-22.328474",
+            "longitude": "24.684866",
+            "name": "Botswana",
+            "created_at": "2023-06-12T17:27:15.653238"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 34,
+        "fields": {
+            "abbreviation": "BY",
+            "latitude": "53.709807",
+            "longitude": "27.953389",
+            "name": "Belarus",
+            "created_at": "2023-06-12T17:27:15.653245"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 35,
+        "fields": {
+            "abbreviation": "BZ",
+            "latitude": "17.189877",
+            "longitude": "-88.49765",
+            "name": "Belize",
+            "created_at": "2023-06-12T17:27:15.653251"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 36,
+        "fields": {
+            "abbreviation": "CA",
+            "latitude": "56.130366",
+            "longitude": "-106.346771",
+            "name": "Canada",
+            "created_at": "2023-06-12T17:27:15.653257"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 37,
+        "fields": {
+            "abbreviation": "CC",
+            "latitude": "-12.164165",
+            "longitude": "96.870956",
+            "name": "Cocos [Keeling] Islands",
+            "created_at": "2023-06-12T17:27:15.653264"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 38,
+        "fields": {
+            "abbreviation": "CD",
+            "latitude": "-4.038333",
+            "longitude": "21.758664",
+            "name": "Congo [DRC]",
+            "created_at": "2023-06-12T17:27:15.653270"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 39,
+        "fields": {
+            "abbreviation": "CF",
+            "latitude": "6.611111",
+            "longitude": "20.939444",
+            "name": "Central African Republic",
+            "created_at": "2023-06-12T17:27:15.653277"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 40,
+        "fields": {
+            "abbreviation": "CG",
+            "latitude": "-0.228021",
+            "longitude": "15.827659",
+            "name": "Congo [Republic]",
+            "created_at": "2023-06-12T17:27:15.653283"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 41,
+        "fields": {
+            "abbreviation": "CH",
+            "latitude": "46.818188",
+            "longitude": "8.227512",
+            "name": "Switzerland",
+            "created_at": "2023-06-12T17:27:15.653288"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 42,
+        "fields": {
+            "abbreviation": "CI",
+            "latitude": "7.539989",
+            "longitude": "-5.54708",
+            "name": "C\u00f4te d'Ivoire",
+            "created_at": "2023-06-12T17:27:15.653295"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 43,
+        "fields": {
+            "abbreviation": "CK",
+            "latitude": "-21.236736",
+            "longitude": "-159.777671",
+            "name": "Cook Islands",
+            "created_at": "2023-06-12T17:27:15.653301"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 44,
+        "fields": {
+            "abbreviation": "CL",
+            "latitude": "-35.675147",
+            "longitude": "-71.542969",
+            "name": "Chile",
+            "created_at": "2023-06-12T17:27:15.653307"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 45,
+        "fields": {
+            "abbreviation": "CM",
+            "latitude": "7.369722",
+            "longitude": "12.354722",
+            "name": "Cameroon",
+            "created_at": "2023-06-12T17:27:15.653312"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 46,
+        "fields": {
+            "abbreviation": "CN",
+            "latitude": "35.86166",
+            "longitude": "104.195397",
+            "name": "China",
+            "created_at": "2023-06-12T17:27:15.653318"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 47,
+        "fields": {
+            "abbreviation": "CO",
+            "latitude": "4.570868",
+            "longitude": "-74.297333",
+            "name": "Colombia",
+            "created_at": "2023-06-12T17:27:15.653324"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 48,
+        "fields": {
+            "abbreviation": "CR",
+            "latitude": "9.748917",
+            "longitude": "-83.753428",
+            "name": "Costa Rica",
+            "created_at": "2023-06-12T17:27:15.653330"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 49,
+        "fields": {
+            "abbreviation": "CU",
+            "latitude": "21.521757",
+            "longitude": "-77.781167",
+            "name": "Cuba",
+            "created_at": "2023-06-12T17:27:15.653336"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 50,
+        "fields": {
+            "abbreviation": "CV",
+            "latitude": "16.002082",
+            "longitude": "-24.013197",
+            "name": "Cape Verde",
+            "created_at": "2023-06-12T17:27:15.653342"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 51,
+        "fields": {
+            "abbreviation": "CX",
+            "latitude": "-10.447525",
+            "longitude": "105.690449",
+            "name": "Christmas Island",
+            "created_at": "2023-06-12T17:27:15.653348"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 52,
+        "fields": {
+            "abbreviation": "CY",
+            "latitude": "35.126413",
+            "longitude": "33.429859",
+            "name": "Cyprus",
+            "created_at": "2023-06-12T17:27:15.653353"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 53,
+        "fields": {
+            "abbreviation": "CZ",
+            "latitude": "49.817492",
+            "longitude": "15.472962",
+            "name": "Czech Republic",
+            "created_at": "2023-06-12T17:27:15.653359"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 54,
+        "fields": {
+            "abbreviation": "DE",
+            "latitude": "51.165691",
+            "longitude": "10.451526",
+            "name": "Germany",
+            "created_at": "2023-06-12T17:27:15.653365"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 55,
+        "fields": {
+            "abbreviation": "DJ",
+            "latitude": "11.825138",
+            "longitude": "42.590275",
+            "name": "Djibouti",
+            "created_at": "2023-06-12T17:27:15.653371"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 56,
+        "fields": {
+            "abbreviation": "DK",
+            "latitude": "56.26392",
+            "longitude": "9.501785",
+            "name": "Denmark",
+            "created_at": "2023-06-12T17:27:15.653378"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 57,
+        "fields": {
+            "abbreviation": "DM",
+            "latitude": "15.414999",
+            "longitude": "-61.370976",
+            "name": "Dominica",
+            "created_at": "2023-06-12T17:27:15.653383"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 58,
+        "fields": {
+            "abbreviation": "DO",
+            "latitude": "18.735693",
+            "longitude": "-70.162651",
+            "name": "Dominican Republic",
+            "created_at": "2023-06-12T17:27:15.653390"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 59,
+        "fields": {
+            "abbreviation": "DZ",
+            "latitude": "28.033886",
+            "longitude": "1.659626",
+            "name": "Algeria",
+            "created_at": "2023-06-12T17:27:15.653396"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 60,
+        "fields": {
+            "abbreviation": "EC",
+            "latitude": "-1.831239",
+            "longitude": "-78.183406",
+            "name": "Ecuador",
+            "created_at": "2023-06-12T17:27:15.653404"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 61,
+        "fields": {
+            "abbreviation": "EE",
+            "latitude": "58.595272",
+            "longitude": "25.013607",
+            "name": "Estonia",
+            "created_at": "2023-06-12T17:27:15.653409"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 62,
+        "fields": {
+            "abbreviation": "EG",
+            "latitude": "26.820553",
+            "longitude": "30.802498",
+            "name": "Egypt",
+            "created_at": "2023-06-12T17:27:15.653415"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 63,
+        "fields": {
+            "abbreviation": "EH",
+            "latitude": "24.215527",
+            "longitude": "-12.885834",
+            "name": "Western Sahara",
+            "created_at": "2023-06-12T17:27:15.653421"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 64,
+        "fields": {
+            "abbreviation": "ER",
+            "latitude": "15.179384",
+            "longitude": "39.782334",
+            "name": "Eritrea",
+            "created_at": "2023-06-12T17:27:15.653427"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 65,
+        "fields": {
+            "abbreviation": "ES",
+            "latitude": "40.463667",
+            "longitude": "-3.74922",
+            "name": "Spain",
+            "created_at": "2023-06-12T17:27:15.653433"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 66,
+        "fields": {
+            "abbreviation": "ET",
+            "latitude": "9.145",
+            "longitude": "40.489673",
+            "name": "Ethiopia",
+            "created_at": "2023-06-12T17:27:15.653439"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 67,
+        "fields": {
+            "abbreviation": "FI",
+            "latitude": "61.92411",
+            "longitude": "25.748151",
+            "name": "Finland",
+            "created_at": "2023-06-12T17:27:15.653445"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 68,
+        "fields": {
+            "abbreviation": "FJ",
+            "latitude": "-16.578193",
+            "longitude": "179.414413",
+            "name": "Fiji",
+            "created_at": "2023-06-12T17:27:15.653451"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 69,
+        "fields": {
+            "abbreviation": "FK",
+            "latitude": "-51.796253",
+            "longitude": "-59.523613",
+            "name": "Falkland Islands [Islas Malvinas]",
+            "created_at": "2023-06-12T17:27:15.653457"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 70,
+        "fields": {
+            "abbreviation": "FM",
+            "latitude": "7.425554",
+            "longitude": "150.550812",
+            "name": "Micronesia",
+            "created_at": "2023-06-12T17:27:15.653463"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 71,
+        "fields": {
+            "abbreviation": "FO",
+            "latitude": "61.892635",
+            "longitude": "-6.911806",
+            "name": "Faroe Islands",
+            "created_at": "2023-06-12T17:27:15.653469"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 72,
+        "fields": {
+            "abbreviation": "FR",
+            "latitude": "46.227638",
+            "longitude": "2.213749",
+            "name": "France",
+            "created_at": "2023-06-12T17:27:15.653475"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 73,
+        "fields": {
+            "abbreviation": "GA",
+            "latitude": "-0.803689",
+            "longitude": "11.609444",
+            "name": "Gabon",
+            "created_at": "2023-06-12T17:27:15.653480"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 74,
+        "fields": {
+            "abbreviation": "GB",
+            "latitude": "55.378051",
+            "longitude": "-3.435973",
+            "name": "United Kingdom",
+            "created_at": "2023-06-12T17:27:15.653488"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 75,
+        "fields": {
+            "abbreviation": "GD",
+            "latitude": "12.262776",
+            "longitude": "-61.604171",
+            "name": "Grenada",
+            "created_at": "2023-06-12T17:27:15.653494"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 76,
+        "fields": {
+            "abbreviation": "GE",
+            "latitude": "42.315407",
+            "longitude": "43.356892",
+            "name": "Georgia",
+            "created_at": "2023-06-12T17:27:15.653500"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 77,
+        "fields": {
+            "abbreviation": "GF",
+            "latitude": "3.933889",
+            "longitude": "-53.125782",
+            "name": "French Guiana",
+            "created_at": "2023-06-12T17:27:15.653506"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 78,
+        "fields": {
+            "abbreviation": "GG",
+            "latitude": "49.465691",
+            "longitude": "-2.585278",
+            "name": "Guernsey",
+            "created_at": "2023-06-12T17:27:15.653512"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 79,
+        "fields": {
+            "abbreviation": "GH",
+            "latitude": "7.946527",
+            "longitude": "-1.023194",
+            "name": "Ghana",
+            "created_at": "2023-06-12T17:27:15.653517"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 80,
+        "fields": {
+            "abbreviation": "GI",
+            "latitude": "36.137741",
+            "longitude": "-5.345374",
+            "name": "Gibraltar",
+            "created_at": "2023-06-12T17:27:15.653523"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 81,
+        "fields": {
+            "abbreviation": "GL",
+            "latitude": "71.706936",
+            "longitude": "-42.604303",
+            "name": "Greenland",
+            "created_at": "2023-06-12T17:27:15.653529"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 82,
+        "fields": {
+            "abbreviation": "GM",
+            "latitude": "13.443182",
+            "longitude": "-15.310139",
+            "name": "Gambia",
+            "created_at": "2023-06-12T17:27:15.653535"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 83,
+        "fields": {
+            "abbreviation": "GN",
+            "latitude": "9.945587",
+            "longitude": "-9.696645",
+            "name": "Guinea",
+            "created_at": "2023-06-12T17:27:15.653540"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 84,
+        "fields": {
+            "abbreviation": "GP",
+            "latitude": "16.995971",
+            "longitude": "-62.067641",
+            "name": "Guadeloupe",
+            "created_at": "2023-06-12T17:27:15.653546"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 85,
+        "fields": {
+            "abbreviation": "GQ",
+            "latitude": "1.650801",
+            "longitude": "10.267895",
+            "name": "Equatorial Guinea",
+            "created_at": "2023-06-12T17:27:15.653552"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 86,
+        "fields": {
+            "abbreviation": "GR",
+            "latitude": "39.074208",
+            "longitude": "21.824312",
+            "name": "Greece",
+            "created_at": "2023-06-12T17:27:15.653558"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 87,
+        "fields": {
+            "abbreviation": "GS",
+            "latitude": "-54.429579",
+            "longitude": "-36.587909",
+            "name": "South Georgia and the South Sandwich Islands",
+            "created_at": "2023-06-12T17:27:15.653565"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 88,
+        "fields": {
+            "abbreviation": "GT",
+            "latitude": "15.783471",
+            "longitude": "-90.230759",
+            "name": "Guatemala",
+            "created_at": "2023-06-12T17:27:15.653571"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 89,
+        "fields": {
+            "abbreviation": "GU",
+            "latitude": "13.444304",
+            "longitude": "144.793731",
+            "name": "Guam",
+            "created_at": "2023-06-12T17:27:15.653576"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 90,
+        "fields": {
+            "abbreviation": "GW",
+            "latitude": "11.803749",
+            "longitude": "-15.180413",
+            "name": "Guinea-Bissau",
+            "created_at": "2023-06-12T17:27:15.653583"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 91,
+        "fields": {
+            "abbreviation": "GY",
+            "latitude": "4.860416",
+            "longitude": "-58.93018",
+            "name": "Guyana",
+            "created_at": "2023-06-12T17:27:15.653589"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 92,
+        "fields": {
+            "abbreviation": "GZ",
+            "latitude": "31.354676",
+            "longitude": "34.308825",
+            "name": "Gaza Strip",
+            "created_at": "2023-06-12T17:27:15.653595"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 93,
+        "fields": {
+            "abbreviation": "HK",
+            "latitude": "22.396428",
+            "longitude": "114.109497",
+            "name": "Hong Kong",
+            "created_at": "2023-06-12T17:27:15.653600"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 94,
+        "fields": {
+            "abbreviation": "HM",
+            "latitude": "-53.08181",
+            "longitude": "73.504158",
+            "name": "Heard Island and McDonald Islands",
+            "created_at": "2023-06-12T17:27:15.653607"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 95,
+        "fields": {
+            "abbreviation": "HN",
+            "latitude": "15.199999",
+            "longitude": "-86.241905",
+            "name": "Honduras",
+            "created_at": "2023-06-12T17:27:15.653613"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 96,
+        "fields": {
+            "abbreviation": "HR",
+            "latitude": "45.1",
+            "longitude": "15.2",
+            "name": "Croatia",
+            "created_at": "2023-06-12T17:27:15.653619"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 97,
+        "fields": {
+            "abbreviation": "HT",
+            "latitude": "18.971187",
+            "longitude": "-72.285215",
+            "name": "Haiti",
+            "created_at": "2023-06-12T17:27:15.653624"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 98,
+        "fields": {
+            "abbreviation": "HU",
+            "latitude": "47.162494",
+            "longitude": "19.503304",
+            "name": "Hungary",
+            "created_at": "2023-06-12T17:27:15.653630"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 99,
+        "fields": {
+            "abbreviation": "ID",
+            "latitude": "-0.789275",
+            "longitude": "113.921327",
+            "name": "Indonesia",
+            "created_at": "2023-06-12T17:27:15.653636"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 100,
+        "fields": {
+            "abbreviation": "IE",
+            "latitude": "53.41291",
+            "longitude": "-8.24389",
+            "name": "Ireland",
+            "created_at": "2023-06-12T17:27:15.653642"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 101,
+        "fields": {
+            "abbreviation": "IL",
+            "latitude": "31.046051",
+            "longitude": "34.851612",
+            "name": "Israel",
+            "created_at": "2023-06-12T17:27:15.653648"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 102,
+        "fields": {
+            "abbreviation": "IM",
+            "latitude": "54.236107",
+            "longitude": "-4.548056",
+            "name": "Isle of Man",
+            "created_at": "2023-06-12T17:27:15.653654"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 103,
+        "fields": {
+            "abbreviation": "IN",
+            "latitude": "20.593684",
+            "longitude": "78.96288",
+            "name": "India",
+            "created_at": "2023-06-12T17:27:15.653659"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 104,
+        "fields": {
+            "abbreviation": "IO",
+            "latitude": "-6.343194",
+            "longitude": "71.876519",
+            "name": "British Indian Ocean Territory",
+            "created_at": "2023-06-12T17:27:15.653665"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 105,
+        "fields": {
+            "abbreviation": "IQ",
+            "latitude": "33.223191",
+            "longitude": "43.679291",
+            "name": "Iraq",
+            "created_at": "2023-06-12T17:27:15.653671"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 106,
+        "fields": {
+            "abbreviation": "IR",
+            "latitude": "32.427908",
+            "longitude": "53.688046",
+            "name": "Iran",
+            "created_at": "2023-06-12T17:27:15.653677"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 107,
+        "fields": {
+            "abbreviation": "IS",
+            "latitude": "64.963051",
+            "longitude": "-19.020835",
+            "name": "Iceland",
+            "created_at": "2023-06-12T17:27:15.653683"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 108,
+        "fields": {
+            "abbreviation": "IT",
+            "latitude": "41.87194",
+            "longitude": "12.56738",
+            "name": "Italy",
+            "created_at": "2023-06-12T17:27:15.653690"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 109,
+        "fields": {
+            "abbreviation": "JE",
+            "latitude": "49.214439",
+            "longitude": "-2.13125",
+            "name": "Jersey",
+            "created_at": "2023-06-12T17:27:15.653696"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 110,
+        "fields": {
+            "abbreviation": "JM",
+            "latitude": "18.109581",
+            "longitude": "-77.297508",
+            "name": "Jamaica",
+            "created_at": "2023-06-12T17:27:15.653701"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 111,
+        "fields": {
+            "abbreviation": "JO",
+            "latitude": "30.585164",
+            "longitude": "36.238414",
+            "name": "Jordan",
+            "created_at": "2023-06-12T17:27:15.653732"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 112,
+        "fields": {
+            "abbreviation": "JP",
+            "latitude": "36.204824",
+            "longitude": "138.252924",
+            "name": "Japan",
+            "created_at": "2023-06-12T17:27:15.653754"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 113,
+        "fields": {
+            "abbreviation": "KE",
+            "latitude": "-0.023559",
+            "longitude": "37.906193",
+            "name": "Kenya",
+            "created_at": "2023-06-12T17:27:15.653811"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 114,
+        "fields": {
+            "abbreviation": "KG",
+            "latitude": "41.20438",
+            "longitude": "74.766098",
+            "name": "Kyrgyzstan",
+            "created_at": "2023-06-12T17:27:15.653823"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 115,
+        "fields": {
+            "abbreviation": "KH",
+            "latitude": "12.565679",
+            "longitude": "104.990963",
+            "name": "Cambodia",
+            "created_at": "2023-06-12T17:27:15.653829"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 116,
+        "fields": {
+            "abbreviation": "KI",
+            "latitude": "-3.370417",
+            "longitude": "-168.734039",
+            "name": "Kiribati",
+            "created_at": "2023-06-12T17:27:15.653835"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 117,
+        "fields": {
+            "abbreviation": "KM",
+            "latitude": "-11.875001",
+            "longitude": "43.872219",
+            "name": "Comoros",
+            "created_at": "2023-06-12T17:27:15.653841"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 118,
+        "fields": {
+            "abbreviation": "KN",
+            "latitude": "17.357822",
+            "longitude": "-62.782998",
+            "name": "Saint Kitts and Nevis",
+            "created_at": "2023-06-12T17:27:15.653847"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 119,
+        "fields": {
+            "abbreviation": "KP",
+            "latitude": "40.339852",
+            "longitude": "127.510093",
+            "name": "North Korea",
+            "created_at": "2023-06-12T17:27:15.653853"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 120,
+        "fields": {
+            "abbreviation": "KR",
+            "latitude": "35.907757",
+            "longitude": "127.766922",
+            "name": "South Korea",
+            "created_at": "2023-06-12T17:27:15.653860"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 121,
+        "fields": {
+            "abbreviation": "KW",
+            "latitude": "29.31166",
+            "longitude": "47.481766",
+            "name": "Kuwait",
+            "created_at": "2023-06-12T17:27:15.653865"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 122,
+        "fields": {
+            "abbreviation": "KY",
+            "latitude": "19.513469",
+            "longitude": "-80.566956",
+            "name": "Cayman Islands",
+            "created_at": "2023-06-12T17:27:15.653871"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 123,
+        "fields": {
+            "abbreviation": "KZ",
+            "latitude": "48.019573",
+            "longitude": "66.923684",
+            "name": "Kazakhstan",
+            "created_at": "2023-06-12T17:27:15.653877"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 124,
+        "fields": {
+            "abbreviation": "LA",
+            "latitude": "19.85627",
+            "longitude": "102.495496",
+            "name": "Laos",
+            "created_at": "2023-06-12T17:27:15.653882"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 125,
+        "fields": {
+            "abbreviation": "LB",
+            "latitude": "33.854721",
+            "longitude": "35.862285",
+            "name": "Lebanon",
+            "created_at": "2023-06-12T17:27:15.653888"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 126,
+        "fields": {
+            "abbreviation": "LC",
+            "latitude": "13.909444",
+            "longitude": "-60.978893",
+            "name": "Saint Lucia",
+            "created_at": "2023-06-12T17:27:15.653894"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 127,
+        "fields": {
+            "abbreviation": "LI",
+            "latitude": "47.166",
+            "longitude": "9.555373",
+            "name": "Liechtenstein",
+            "created_at": "2023-06-12T17:27:15.653900"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 128,
+        "fields": {
+            "abbreviation": "LK",
+            "latitude": "7.873054",
+            "longitude": "80.771797",
+            "name": "Sri Lanka",
+            "created_at": "2023-06-12T17:27:15.653908"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 129,
+        "fields": {
+            "abbreviation": "LR",
+            "latitude": "6.428055",
+            "longitude": "-9.429499",
+            "name": "Liberia",
+            "created_at": "2023-06-12T17:27:15.653914"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 130,
+        "fields": {
+            "abbreviation": "LS",
+            "latitude": "-29.609988",
+            "longitude": "28.233608",
+            "name": "Lesotho",
+            "created_at": "2023-06-12T17:27:15.653920"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 131,
+        "fields": {
+            "abbreviation": "LT",
+            "latitude": "55.169438",
+            "longitude": "23.881275",
+            "name": "Lithuania",
+            "created_at": "2023-06-12T17:27:15.653925"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 132,
+        "fields": {
+            "abbreviation": "LU",
+            "latitude": "49.815273",
+            "longitude": "6.129583",
+            "name": "Luxembourg",
+            "created_at": "2023-06-12T17:27:15.653931"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 133,
+        "fields": {
+            "abbreviation": "LV",
+            "latitude": "56.879635",
+            "longitude": "24.603189",
+            "name": "Latvia",
+            "created_at": "2023-06-12T17:27:15.653937"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 134,
+        "fields": {
+            "abbreviation": "LY",
+            "latitude": "26.3351",
+            "longitude": "17.228331",
+            "name": "Libya",
+            "created_at": "2023-06-12T17:27:15.653943"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 135,
+        "fields": {
+            "abbreviation": "MA",
+            "latitude": "31.791702",
+            "longitude": "-7.09262",
+            "name": "Morocco",
+            "created_at": "2023-06-12T17:27:15.653949"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 136,
+        "fields": {
+            "abbreviation": "MC",
+            "latitude": "43.750298",
+            "longitude": "7.412841",
+            "name": "Monaco",
+            "created_at": "2023-06-12T17:27:15.653955"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 137,
+        "fields": {
+            "abbreviation": "MD",
+            "latitude": "47.411631",
+            "longitude": "28.369885",
+            "name": "Moldova",
+            "created_at": "2023-06-12T17:27:15.653961"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 138,
+        "fields": {
+            "abbreviation": "ME",
+            "latitude": "42.708678",
+            "longitude": "19.37439",
+            "name": "Montenegro",
+            "created_at": "2023-06-12T17:27:15.653967"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 139,
+        "fields": {
+            "abbreviation": "MG",
+            "latitude": "-18.766947",
+            "longitude": "46.869107",
+            "name": "Madagascar",
+            "created_at": "2023-06-12T17:27:15.653972"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 140,
+        "fields": {
+            "abbreviation": "MH",
+            "latitude": "7.131474",
+            "longitude": "171.184478",
+            "name": "Marshall Islands",
+            "created_at": "2023-06-12T17:27:15.653979"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 141,
+        "fields": {
+            "abbreviation": "MK",
+            "latitude": "41.608635",
+            "longitude": "21.745275",
+            "name": "Macedonia [FYROM]",
+            "created_at": "2023-06-12T17:27:15.653985"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 142,
+        "fields": {
+            "abbreviation": "ML",
+            "latitude": "17.570692",
+            "longitude": "-3.996166",
+            "name": "Mali",
+            "created_at": "2023-06-12T17:27:15.653991"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 143,
+        "fields": {
+            "abbreviation": "MM",
+            "latitude": "21.913965",
+            "longitude": "95.956223",
+            "name": "Myanmar [Burma]",
+            "created_at": "2023-06-12T17:27:15.653997"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 144,
+        "fields": {
+            "abbreviation": "MN",
+            "latitude": "46.862496",
+            "longitude": "103.846656",
+            "name": "Mongolia",
+            "created_at": "2023-06-12T17:27:15.654003"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 145,
+        "fields": {
+            "abbreviation": "MO",
+            "latitude": "22.198745",
+            "longitude": "113.543873",
+            "name": "Macau",
+            "created_at": "2023-06-12T17:27:15.654008"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 146,
+        "fields": {
+            "abbreviation": "MP",
+            "latitude": "17.33083",
+            "longitude": "145.38469",
+            "name": "Northern Mariana Islands",
+            "created_at": "2023-06-12T17:27:15.654015"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 147,
+        "fields": {
+            "abbreviation": "MQ",
+            "latitude": "14.641528",
+            "longitude": "-61.024174",
+            "name": "Martinique",
+            "created_at": "2023-06-12T17:27:15.654021"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 148,
+        "fields": {
+            "abbreviation": "MR",
+            "latitude": "21.00789",
+            "longitude": "-10.940835",
+            "name": "Mauritania",
+            "created_at": "2023-06-12T17:27:15.654026"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 149,
+        "fields": {
+            "abbreviation": "MS",
+            "latitude": "16.742498",
+            "longitude": "-62.187366",
+            "name": "Montserrat",
+            "created_at": "2023-06-12T17:27:15.654032"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 150,
+        "fields": {
+            "abbreviation": "MT",
+            "latitude": "35.937496",
+            "longitude": "14.375416",
+            "name": "Malta",
+            "created_at": "2023-06-12T17:27:15.654039"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 151,
+        "fields": {
+            "abbreviation": "MU",
+            "latitude": "-20.348404",
+            "longitude": "57.552152",
+            "name": "Mauritius",
+            "created_at": "2023-06-12T17:27:15.654045"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 152,
+        "fields": {
+            "abbreviation": "MV",
+            "latitude": "3.202778",
+            "longitude": "73.22068",
+            "name": "Maldives",
+            "created_at": "2023-06-12T17:27:15.654051"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 153,
+        "fields": {
+            "abbreviation": "MW",
+            "latitude": "-13.254308",
+            "longitude": "34.301525",
+            "name": "Malawi",
+            "created_at": "2023-06-12T17:27:15.654056"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 154,
+        "fields": {
+            "abbreviation": "MX",
+            "latitude": "23.634501",
+            "longitude": "-102.552784",
+            "name": "Mexico",
+            "created_at": "2023-06-12T17:27:15.654062"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 155,
+        "fields": {
+            "abbreviation": "MY",
+            "latitude": "4.210484",
+            "longitude": "101.975766",
+            "name": "Malaysia",
+            "created_at": "2023-06-12T17:27:15.654068"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 156,
+        "fields": {
+            "abbreviation": "MZ",
+            "latitude": "-18.665695",
+            "longitude": "35.529562",
+            "name": "Mozambique",
+            "created_at": "2023-06-12T17:27:15.654074"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 157,
+        "fields": {
+            "abbreviation": "NA",
+            "latitude": "-22.95764",
+            "longitude": "18.49041",
+            "name": "Namibia",
+            "created_at": "2023-06-12T17:27:15.654080"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 158,
+        "fields": {
+            "abbreviation": "NC",
+            "latitude": "-20.904305",
+            "longitude": "165.618042",
+            "name": "New Caledonia",
+            "created_at": "2023-06-12T17:27:15.654086"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 159,
+        "fields": {
+            "abbreviation": "NE",
+            "latitude": "17.607789",
+            "longitude": "8.081666",
+            "name": "Niger",
+            "created_at": "2023-06-12T17:27:15.654092"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 160,
+        "fields": {
+            "abbreviation": "NF",
+            "latitude": "-29.040835",
+            "longitude": "167.954712",
+            "name": "Norfolk Island",
+            "created_at": "2023-06-12T17:27:15.654098"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 161,
+        "fields": {
+            "abbreviation": "NG",
+            "latitude": "9.081999",
+            "longitude": "8.675277",
+            "name": "Nigeria",
+            "created_at": "2023-06-12T17:27:15.654104"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 162,
+        "fields": {
+            "abbreviation": "NI",
+            "latitude": "12.865416",
+            "longitude": "-85.207229",
+            "name": "Nicaragua",
+            "created_at": "2023-06-12T17:27:15.654110"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 163,
+        "fields": {
+            "abbreviation": "NL",
+            "latitude": "52.132633",
+            "longitude": "5.291266",
+            "name": "Netherlands",
+            "created_at": "2023-06-12T17:27:15.654115"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 164,
+        "fields": {
+            "abbreviation": "NO",
+            "latitude": "60.472024",
+            "longitude": "8.468946",
+            "name": "Norway",
+            "created_at": "2023-06-12T17:27:15.654121"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 165,
+        "fields": {
+            "abbreviation": "NP",
+            "latitude": "28.394857",
+            "longitude": "84.124008",
+            "name": "Nepal",
+            "created_at": "2023-06-12T17:27:15.654127"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 166,
+        "fields": {
+            "abbreviation": "NR",
+            "latitude": "-0.522778",
+            "longitude": "166.931503",
+            "name": "Nauru",
+            "created_at": "2023-06-12T17:27:15.654133"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 167,
+        "fields": {
+            "abbreviation": "NU",
+            "latitude": "-19.054445",
+            "longitude": "-169.867233",
+            "name": "Niue",
+            "created_at": "2023-06-12T17:27:15.654138"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 168,
+        "fields": {
+            "abbreviation": "NZ",
+            "latitude": "-40.900557",
+            "longitude": "174.885971",
+            "name": "New Zealand",
+            "created_at": "2023-06-12T17:27:15.654144"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 169,
+        "fields": {
+            "abbreviation": "OM",
+            "latitude": "21.512583",
+            "longitude": "55.923255",
+            "name": "Oman",
+            "created_at": "2023-06-12T17:27:15.654150"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 170,
+        "fields": {
+            "abbreviation": "PA",
+            "latitude": "8.537981",
+            "longitude": "-80.782127",
+            "name": "Panama",
+            "created_at": "2023-06-12T17:27:15.654156"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 171,
+        "fields": {
+            "abbreviation": "PE",
+            "latitude": "-9.189967",
+            "longitude": "-75.015152",
+            "name": "Peru",
+            "created_at": "2023-06-12T17:27:15.654163"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 172,
+        "fields": {
+            "abbreviation": "PF",
+            "latitude": "-17.679742",
+            "longitude": "-149.406843",
+            "name": "French Polynesia",
+            "created_at": "2023-06-12T17:27:15.654169"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 173,
+        "fields": {
+            "abbreviation": "PG",
+            "latitude": "-6.314993",
+            "longitude": "143.95555",
+            "name": "Papua New Guinea",
+            "created_at": "2023-06-12T17:27:15.654175"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 174,
+        "fields": {
+            "abbreviation": "PH",
+            "latitude": "12.879721",
+            "longitude": "121.774017",
+            "name": "Philippines",
+            "created_at": "2023-06-12T17:27:15.654181"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 175,
+        "fields": {
+            "abbreviation": "PK",
+            "latitude": "30.375321",
+            "longitude": "69.345116",
+            "name": "Pakistan",
+            "created_at": "2023-06-12T17:27:15.654188"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 176,
+        "fields": {
+            "abbreviation": "PL",
+            "latitude": "51.919438",
+            "longitude": "19.145136",
+            "name": "Poland",
+            "created_at": "2023-06-12T17:27:15.654411"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 177,
+        "fields": {
+            "abbreviation": "PM",
+            "latitude": "46.941936",
+            "longitude": "-56.27111",
+            "name": "Saint Pierre and Miquelon",
+            "created_at": "2023-06-12T17:27:15.654430"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 178,
+        "fields": {
+            "abbreviation": "PN",
+            "latitude": "-24.703615",
+            "longitude": "-127.439308",
+            "name": "Pitcairn Islands",
+            "created_at": "2023-06-12T17:27:15.654437"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 179,
+        "fields": {
+            "abbreviation": "PR",
+            "latitude": "18.220833",
+            "longitude": "-66.590149",
+            "name": "Puerto Rico",
+            "created_at": "2023-06-12T17:27:15.654444"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 180,
+        "fields": {
+            "abbreviation": "PS",
+            "latitude": "31.952162",
+            "longitude": "35.233154",
+            "name": "Palestinian Territories",
+            "created_at": "2023-06-12T17:27:15.654451"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 181,
+        "fields": {
+            "abbreviation": "PT",
+            "latitude": "39.399872",
+            "longitude": "-8.224454",
+            "name": "Portugal",
+            "created_at": "2023-06-12T17:27:15.654457"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 182,
+        "fields": {
+            "abbreviation": "PW",
+            "latitude": "7.51498",
+            "longitude": "134.58252",
+            "name": "Palau",
+            "created_at": "2023-06-12T17:27:15.654463"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 183,
+        "fields": {
+            "abbreviation": "PY",
+            "latitude": "-23.442503",
+            "longitude": "-58.443832",
+            "name": "Paraguay",
+            "created_at": "2023-06-12T17:27:15.654469"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 184,
+        "fields": {
+            "abbreviation": "QA",
+            "latitude": "25.354826",
+            "longitude": "51.183884",
+            "name": "Qatar",
+            "created_at": "2023-06-12T17:27:15.654474"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 185,
+        "fields": {
+            "abbreviation": "RE",
+            "latitude": "-21.115141",
+            "longitude": "55.536384",
+            "name": "R\u00e9union",
+            "created_at": "2023-06-12T17:27:15.654481"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 186,
+        "fields": {
+            "abbreviation": "RO",
+            "latitude": "45.943161",
+            "longitude": "24.96676",
+            "name": "Romania",
+            "created_at": "2023-06-12T17:27:15.654487"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 187,
+        "fields": {
+            "abbreviation": "RS",
+            "latitude": "44.016521",
+            "longitude": "21.005859",
+            "name": "Serbia",
+            "created_at": "2023-06-12T17:27:15.654493"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 188,
+        "fields": {
+            "abbreviation": "RU",
+            "latitude": "61.52401",
+            "longitude": "105.318756",
+            "name": "Russia",
+            "created_at": "2023-06-12T17:27:15.654499"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 189,
+        "fields": {
+            "abbreviation": "RW",
+            "latitude": "-1.940278",
+            "longitude": "29.873888",
+            "name": "Rwanda",
+            "created_at": "2023-06-12T17:27:15.654505"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 190,
+        "fields": {
+            "abbreviation": "SA",
+            "latitude": "23.885942",
+            "longitude": "45.079162",
+            "name": "Saudi Arabia",
+            "created_at": "2023-06-12T17:27:15.654511"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 191,
+        "fields": {
+            "abbreviation": "SB",
+            "latitude": "-9.64571",
+            "longitude": "160.156194",
+            "name": "Solomon Islands",
+            "created_at": "2023-06-12T17:27:15.654517"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 192,
+        "fields": {
+            "abbreviation": "SC",
+            "latitude": "-4.679574",
+            "longitude": "55.491977",
+            "name": "Seychelles",
+            "created_at": "2023-06-12T17:27:15.654524"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 193,
+        "fields": {
+            "abbreviation": "SD",
+            "latitude": "12.862807",
+            "longitude": "30.217636",
+            "name": "Sudan",
+            "created_at": "2023-06-12T17:27:15.654530"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 194,
+        "fields": {
+            "abbreviation": "SE",
+            "latitude": "60.128161",
+            "longitude": "18.643501",
+            "name": "Sweden",
+            "created_at": "2023-06-12T17:27:15.654535"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 195,
+        "fields": {
+            "abbreviation": "SG",
+            "latitude": "1.352083",
+            "longitude": "103.819836",
+            "name": "Singapore",
+            "created_at": "2023-06-12T17:27:15.654542"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 196,
+        "fields": {
+            "abbreviation": "SH",
+            "latitude": "-24.143474",
+            "longitude": "-10.030696",
+            "name": "Saint Helena",
+            "created_at": "2023-06-12T17:27:15.654548"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 197,
+        "fields": {
+            "abbreviation": "SI",
+            "latitude": "46.151241",
+            "longitude": "14.995463",
+            "name": "Slovenia",
+            "created_at": "2023-06-12T17:27:15.654553"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 198,
+        "fields": {
+            "abbreviation": "SJ",
+            "latitude": "77.553604",
+            "longitude": "23.670272",
+            "name": "Svalbard and Jan Mayen",
+            "created_at": "2023-06-12T17:27:15.654559"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 199,
+        "fields": {
+            "abbreviation": "SK",
+            "latitude": "48.669026",
+            "longitude": "19.699024",
+            "name": "Slovakia",
+            "created_at": "2023-06-12T17:27:15.654565"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 200,
+        "fields": {
+            "abbreviation": "SL",
+            "latitude": "8.460555",
+            "longitude": "-11.779889",
+            "name": "Sierra Leone",
+            "created_at": "2023-06-12T17:27:15.654571"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 201,
+        "fields": {
+            "abbreviation": "SM",
+            "latitude": "43.94236",
+            "longitude": "12.457777",
+            "name": "San Marino",
+            "created_at": "2023-06-12T17:27:15.654576"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 202,
+        "fields": {
+            "abbreviation": "SN",
+            "latitude": "14.497401",
+            "longitude": "-14.452362",
+            "name": "Senegal",
+            "created_at": "2023-06-12T17:27:15.654582"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 203,
+        "fields": {
+            "abbreviation": "SO",
+            "latitude": "5.152149",
+            "longitude": "46.199616",
+            "name": "Somalia",
+            "created_at": "2023-06-12T17:27:15.654590"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 204,
+        "fields": {
+            "abbreviation": "SR",
+            "latitude": "3.919305",
+            "longitude": "-56.027783",
+            "name": "Suriname",
+            "created_at": "2023-06-12T17:27:15.654597"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 205,
+        "fields": {
+            "abbreviation": "ST",
+            "latitude": "0.18636",
+            "longitude": "6.613081",
+            "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+            "created_at": "2023-06-12T17:27:15.654603"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 206,
+        "fields": {
+            "abbreviation": "SV",
+            "latitude": "13.794185",
+            "longitude": "-88.89653",
+            "name": "El Salvador",
+            "created_at": "2023-06-12T17:27:15.654609"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 207,
+        "fields": {
+            "abbreviation": "SY",
+            "latitude": "34.802075",
+            "longitude": "38.996815",
+            "name": "Syria",
+            "created_at": "2023-06-12T17:27:15.654615"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 208,
+        "fields": {
+            "abbreviation": "SZ",
+            "latitude": "-26.522503",
+            "longitude": "31.465866",
+            "name": "Swaziland",
+            "created_at": "2023-06-12T17:27:15.654621"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 209,
+        "fields": {
+            "abbreviation": "TC",
+            "latitude": "21.694025",
+            "longitude": "-71.797928",
+            "name": "Turks and Caicos Islands",
+            "created_at": "2023-06-12T17:27:15.654627"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 210,
+        "fields": {
+            "abbreviation": "TD",
+            "latitude": "15.454166",
+            "longitude": "18.732207",
+            "name": "Chad",
+            "created_at": "2023-06-12T17:27:15.654633"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 211,
+        "fields": {
+            "abbreviation": "TF",
+            "latitude": "-49.280366",
+            "longitude": "69.348557",
+            "name": "French Southern Territories",
+            "created_at": "2023-06-12T17:27:15.654640"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 212,
+        "fields": {
+            "abbreviation": "TG",
+            "latitude": "8.619543",
+            "longitude": "0.824782",
+            "name": "Togo",
+            "created_at": "2023-06-12T17:27:15.654645"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 213,
+        "fields": {
+            "abbreviation": "TH",
+            "latitude": "15.870032",
+            "longitude": "100.992541",
+            "name": "Thailand",
+            "created_at": "2023-06-12T17:27:15.654651"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 214,
+        "fields": {
+            "abbreviation": "TJ",
+            "latitude": "38.861034",
+            "longitude": "71.276093",
+            "name": "Tajikistan",
+            "created_at": "2023-06-12T17:27:15.654657"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 215,
+        "fields": {
+            "abbreviation": "TK",
+            "latitude": "-8.967363",
+            "longitude": "-171.855881",
+            "name": "Tokelau",
+            "created_at": "2023-06-12T17:27:15.654664"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 216,
+        "fields": {
+            "abbreviation": "TL",
+            "latitude": "-8.874217",
+            "longitude": "125.727539",
+            "name": "Timor-Leste",
+            "created_at": "2023-06-12T17:27:15.654670"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 217,
+        "fields": {
+            "abbreviation": "TM",
+            "latitude": "38.969719",
+            "longitude": "59.556278",
+            "name": "Turkmenistan",
+            "created_at": "2023-06-12T17:27:15.654675"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 218,
+        "fields": {
+            "abbreviation": "TN",
+            "latitude": "33.886917",
+            "longitude": "9.537499",
+            "name": "Tunisia",
+            "created_at": "2023-06-12T17:27:15.654681"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 219,
+        "fields": {
+            "abbreviation": "TO",
+            "latitude": "-21.178986",
+            "longitude": "-175.198242",
+            "name": "Tonga",
+            "created_at": "2023-06-12T17:27:15.654687"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 220,
+        "fields": {
+            "abbreviation": "TR",
+            "latitude": "38.963745",
+            "longitude": "35.243322",
+            "name": "Turkey",
+            "created_at": "2023-06-12T17:27:15.654693"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 221,
+        "fields": {
+            "abbreviation": "TT",
+            "latitude": "10.691803",
+            "longitude": "-61.222503",
+            "name": "Trinidad and Tobago",
+            "created_at": "2023-06-12T17:27:15.654700"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 222,
+        "fields": {
+            "abbreviation": "TV",
+            "latitude": "-7.109535",
+            "longitude": "177.64933",
+            "name": "Tuvalu",
+            "created_at": "2023-06-12T17:27:15.654706"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 223,
+        "fields": {
+            "abbreviation": "TW",
+            "latitude": "23.69781",
+            "longitude": "120.960515",
+            "name": "Taiwan",
+            "created_at": "2023-06-12T17:27:15.654712"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 224,
+        "fields": {
+            "abbreviation": "TZ",
+            "latitude": "-6.369028",
+            "longitude": "34.888822",
+            "name": "Tanzania",
+            "created_at": "2023-06-12T17:27:15.654718"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 225,
+        "fields": {
+            "abbreviation": "UA",
+            "latitude": "48.379433",
+            "longitude": "31.16558",
+            "name": "Ukraine",
+            "created_at": "2023-06-12T17:27:15.654724"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 226,
+        "fields": {
+            "abbreviation": "UG",
+            "latitude": "1.373333",
+            "longitude": "32.290275",
+            "name": "Uganda",
+            "created_at": "2023-06-12T17:27:15.654730"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 228,
+        "fields": {
+            "abbreviation": "US",
+            "latitude": "37.09024",
+            "longitude": "-95.712891",
+            "name": "United States",
+            "created_at": "2023-06-12T17:27:15.654742"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 229,
+        "fields": {
+            "abbreviation": "UY",
+            "latitude": "-32.522779",
+            "longitude": "-55.765835",
+            "name": "Uruguay",
+            "created_at": "2023-06-12T17:27:15.654748"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 230,
+        "fields": {
+            "abbreviation": "UZ",
+            "latitude": "41.377491",
+            "longitude": "64.585262",
+            "name": "Uzbekistan",
+            "created_at": "2023-06-12T17:27:15.654754"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 231,
+        "fields": {
+            "abbreviation": "VA",
+            "latitude": "41.902916",
+            "longitude": "12.453389",
+            "name": "Vatican City",
+            "created_at": "2023-06-12T17:27:15.654760"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 232,
+        "fields": {
+            "abbreviation": "VC",
+            "latitude": "12.984305",
+            "longitude": "-61.287228",
+            "name": "Saint Vincent and the Grenadines",
+            "created_at": "2023-06-12T17:27:15.654767"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 233,
+        "fields": {
+            "abbreviation": "VE",
+            "latitude": "6.42375",
+            "longitude": "-66.58973",
+            "name": "Venezuela",
+            "created_at": "2023-06-12T17:27:15.654772"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 234,
+        "fields": {
+            "abbreviation": "VG",
+            "latitude": "18.420695",
+            "longitude": "-64.639968",
+            "name": "British Virgin Islands",
+            "created_at": "2023-06-12T17:27:15.655118"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 235,
+        "fields": {
+            "abbreviation": "VI",
+            "latitude": "18.335765",
+            "longitude": "-64.896335",
+            "name": "U.S. Virgin Islands",
+            "created_at": "2023-06-12T17:27:15.655136"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 236,
+        "fields": {
+            "abbreviation": "VN",
+            "latitude": "14.058324",
+            "longitude": "108.277199",
+            "name": "Vietnam",
+            "created_at": "2023-06-12T17:27:15.655144"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 237,
+        "fields": {
+            "abbreviation": "VU",
+            "latitude": "-15.376706",
+            "longitude": "166.959158",
+            "name": "Vanuatu",
+            "created_at": "2023-06-12T17:27:15.655191"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 238,
+        "fields": {
+            "abbreviation": "WF",
+            "latitude": "-13.768752",
+            "longitude": "-177.156097",
+            "name": "Wallis and Futuna",
+            "created_at": "2023-06-12T17:27:15.655199"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 239,
+        "fields": {
+            "abbreviation": "WS",
+            "latitude": "-13.759029",
+            "longitude": "-172.104629",
+            "name": "Samoa",
+            "created_at": "2023-06-12T17:27:15.655207"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 240,
+        "fields": {
+            "abbreviation": "XK",
+            "latitude": "42.602636",
+            "longitude": "20.902977",
+            "name": "Kosovo",
+            "created_at": "2023-06-12T17:27:15.655213"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 241,
+        "fields": {
+            "abbreviation": "YE",
+            "latitude": "15.552727",
+            "longitude": "48.516388",
+            "name": "Yemen",
+            "created_at": "2023-06-12T17:27:15.655219"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 242,
+        "fields": {
+            "abbreviation": "YT",
+            "latitude": "-12.8275",
+            "longitude": "45.166244",
+            "name": "Mayotte",
+            "created_at": "2023-06-12T17:27:15.655229"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 243,
+        "fields": {
+            "abbreviation": "ZA",
+            "latitude": "-30.559482",
+            "longitude": "22.937506",
+            "name": "South Africa",
+            "created_at": "2023-06-12T17:27:15.655239"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 244,
+        "fields": {
+            "abbreviation": "ZM",
+            "latitude": "-13.133897",
+            "longitude": "27.849332",
+            "name": "Zambia",
+            "created_at": "2023-06-12T17:27:15.655250"
+        }
+    },
+    {
+        "model": "cdata.Country",
+        "pk": 245,
+        "fields": {
+            "abbreviation": "ZW",
+            "latitude": "-19.015438",
+            "longitude": "29.154857",
+            "name": "Zimbabwe",
+            "created_at": "2023-06-12T17:27:15.655302"
+        }
+    }
+]
