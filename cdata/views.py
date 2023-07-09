@@ -8,14 +8,20 @@ from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 from django.contrib import messages
 from django.db.models import Q
-
+from django.shortcuts import render
+from .models import Company
 
 
 # Create your views here.
 
+
+def company_list(request):
+    companies = Company.objects.all()  # Get all Company objects from the database
+    return render(request, 'cdata/company_list.html', {'companies': companies})
+
 class HomePageView(LoginRequiredMixin, ListView):
-    model = Company
-    template_name = 'home.html'
+    model = Contact
+    template_name = 'index.html'
     login_url = 'login'
 
     def get_queryset(self):

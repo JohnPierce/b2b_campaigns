@@ -1,0 +1,363 @@
+[
+    {
+        "model": "cdata.subcategory",
+        "pk": 1,
+        "fields": {
+            "name": "Algo Modeling",
+            "description": "Part of the high-level synthesis process, this involves modeling algorithms.",
+            "edadesignflow": 1,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 2,
+        "fields": {
+            "name": "Performance Modeling",
+            "description": "Part of the high-level synthesis process, this involves modeling performance of designs.",
+            "edadesignflow": 1,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 3,
+        "fields": {
+            "name": "Architectural Exploration",
+            "description": "Part of the high-level synthesis process, this involves exploring different architectural designs.",
+            "edadesignflow": 1,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 36,
+        "fields": {
+            "name": "High level verification",
+            "description": "The verification flow of your high level design. Overall methodology would include how it fits into final verification.",
+            "edadesignflow": 1,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 4,
+        "fields": {
+            "name": "RTL Power Estimation",
+            "description": "Part of the RTL design process, this involves estimating power usage as early as possible. When SPEF files and activity files become available that information can be added to refine the accuracy of the results.",
+            "edadesignflow": 2,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 5,
+        "fields": {
+            "name": "RTL Power Optimization",
+            "description": "Part of the RTL design process, this involves optimizing power usage.",
+            "edadesignflow": 2,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 6,
+        "fields": {
+            "name": "RTL Simulation, Power Architecture Simulation",
+            "description": "Simulation and debug environment for simulating your RTL design including power architecture definition with UPF.",
+            "edadesignflow": 2,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 7,
+        "fields": {
+            "name": "RTL Timing Analysis",
+            "description": "Part of the RTL design process, this involves analyzing timing in the RTL design.",
+            "edadesignflow": 2,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 8,
+        "fields": {
+            "name": "Architectural Implementation",
+            "description": "Part of the RTL design process, this involves implementing the architectural design.",
+            "edadesignflow": 2,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 9,
+        "fields": {
+            "name": "Simulation",
+            "description": "Part of the functional verification process, this involves simulating the design.",
+            "edadesignflow": 3,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 10,
+        "fields": {
+            "name": "Hardware Emulation",
+            "description": "Part of the functional verification process, this involves emulating the hardware.",
+            "edadesignflow": 3,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 11,
+        "fields": {
+            "name": "Formal Verification",
+            "description": "Part of the functional verification process, this involves formally verifying the design.",
+            "edadesignflow": 3,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 12,
+        "fields": {
+            "name": "Static Timing Analysis",
+            "description": "Part of the functional verification process, this involves analyzing timing statically.",
+            "edadesignflow": 3,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 13,
+        "fields": {
+            "name": "Clock Tree Synthesis",
+            "description": "Part of the gate level EM, IR and power process, this involves synthesizing the clock tree.",
+            "edadesignflow": 4,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 14,
+        "fields": {
+            "name": "Static Power Analysis",
+            "description": "Part of the gate level EM, IR and power process, this involves analyzing power usage statically.",
+            "edadesignflow": 4,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 15,
+        "fields": {
+            "name": "Dynamic Power Analysis",
+            "description": "Part of the gate level EM, IR and power process, this involves analyzing power usage dynamically.",
+            "edadesignflow": 4,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 16,
+        "fields": {
+            "name": "Placement",
+            "description": "Part of the physical design process, this involves placement of elements.",
+            "edadesignflow": 5,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 17,
+        "fields": {
+            "name": "Clock Tree Synthesis",
+            "description": "Part of the physical design process, this involves synthesizing the clock tree.",
+            "edadesignflow": 5,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 18,
+        "fields": {
+            "name": "Routing",
+            "description": "Part of the physical design process, this involves routing the elements.",
+            "edadesignflow": 5,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 19,
+        "fields": {
+            "name": "Static Timing Analysis",
+            "description": "Part of the place and route process, this involves analyzing timing statically.",
+            "edadesignflow": 6,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 20,
+        "fields": {
+            "name": "Static Timing Analysis",
+            "description": "Part of the timing analysis process, this involves analyzing timing statically.",
+            "edadesignflow": 7,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 21,
+        "fields": {
+            "name": "Layout Versus Schematic (LVS) Check",
+            "description": "Part of the physical verification process, this involves checking the layout versus the schematic.",
+            "edadesignflow": 8,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 22,
+        "fields": {
+            "name": "Design Rule Checking (DRC)",
+            "description": "Part of the physical verification process, this involves checking the design rules.",
+            "edadesignflow": 8,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 23,
+        "fields": {
+            "name": "Antenna Rule Checking (ARC)",
+            "description": "Part of the physical verification process, this involves checking the antenna rules.",
+            "edadesignflow": 8,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 24,
+        "fields": {
+            "name": "Electrical Rule Checking (ERC)",
+            "description": "Part of the physical verification process, this involves checking the electrical rules.",
+            "edadesignflow": 8,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 25,
+        "fields": {
+            "name": "Floorplanning",
+            "description": "Part of the SoC design process, this involves planning the floorplan of the SoC.",
+            "edadesignflow": 9,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 26,
+        "fields": {
+            "name": "Integration",
+            "description": "Part of the SoC design process, this involves integrating the different components of the SoC.",
+            "edadesignflow": 9,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 27,
+        "fields": {
+            "name": "Verification",
+            "description": "Part of the SoC design process, this involves verifying the SoC design.",
+            "edadesignflow": 9,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 28,
+        "fields": {
+            "name": "Physical Design",
+            "description": "Part of the multi-chip module design process, this involves the physical design of the MCM.",
+            "edadesignflow": 10,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 29,
+        "fields": {
+            "name": "Package Design",
+            "description": "Part of the multi-chip module design process, this involves the design of the MCM package.",
+            "edadesignflow": 10,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 30,
+        "fields": {
+            "name": "Electric Field (EM) Analysis",
+            "description": "Part of the electric field and thermal analysis process, this involves analyzing the electric field.",
+            "edadesignflow": 11,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 31,
+        "fields": {
+            "name": "Thermal Analysis",
+            "description": "Part of the electric field and thermal analysis process, this involves analyzing the thermal aspects.",
+            "edadesignflow": 11,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 32,
+        "fields": {
+            "name": "Schematic Capture",
+            "description": "Part of the custom IC design process, this involves capturing the schematic of the custom IC.",
+            "edadesignflow": 12,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 33,
+        "fields": {
+            "name": "SPICE Simulation",
+            "description": "Part of the custom IC design process, this involves simulating the custom IC using SPICE.",
+            "edadesignflow": 12,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 34,
+        "fields": {
+            "name": "FastSPICE Simulation",
+            "description": "Part of the custom IC design process, this involves simulating the custom IC using FastSPICE.",
+            "edadesignflow": 12,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    },
+    {
+        "model": "cdata.subcategory",
+        "pk": 35,
+        "fields": {
+            "name": "Extraction",
+            "description": "Part of the custom IC design process, this involves extracting the characteristics of the custom IC.",
+            "edadesignflow": 12,
+            "created_at": "2023-06-22T00:00:00Z"
+        }
+    }
+]
+

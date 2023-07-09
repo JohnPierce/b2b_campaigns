@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.models import Group
 from .models import Company, Supplier, CompanySupplierSpend, EDADesignFlow, SemiconductorFPGAPlatform  # new
-from .models import Country, City, CompanyOffice
+from .models import Country, City, CompanyOffice, Contact
 from import_export.admin import ImportExportModelAdmin
 
 
@@ -49,6 +49,11 @@ class CompanyOfficeAdmin(admin.ModelAdmin):
     search_fields = ('company', 'city', 'state_province', 'postal_code', 'country')
     ordering = ('company',)
 
+class ContactAdmin(admin.ModelAdmin):
+    list_display = ('last_name','first_name', 'job_title', 'email', 'company', 'company_office')
+    search_fields = ('last_name', 'first_name', 'email', 'company__name', 'company_office__city__name')
+    ordering = ('company', 'last_name',)
+
 
 
 
@@ -60,3 +65,4 @@ admin.site.register(CompanySupplierSpend, CompanySupplierSpendAdmin)
 admin.site.register(EDADesignFlow, EDADesignFlowAdmin)
 admin.site.register(SemiconductorFPGAPlatform, SemiconductorFPGAPlatformAdmin)
 admin.site.register(CompanyOffice, CompanyOfficeAdmin)
+admin.site.register(Contact, ContactAdmin)

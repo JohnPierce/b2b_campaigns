@@ -1,0 +1,9 @@
+<h1>Companies</h1>
+
+<ul>
+{% for company in companies %}
+    <li>{{ company.name }}</li>  <!-- replace 'name' with the field you want to display -->
+{% empty %}
+    <li>No companies available.</li>
+{% endfor %}
+</ul>
