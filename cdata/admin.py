@@ -19,7 +19,7 @@ class CountryAdmin(admin.ModelAdmin):
 
 class CityAdmin(admin.ModelAdmin):
     list_display = ('name', 'country')
-    search_fields = ('name', 'country')
+    search_fields = ('name', 'country__name')
     ordering = ('name',)
 
 class SupplierAdmin(admin.ModelAdmin):
@@ -31,7 +31,7 @@ class SupplierAdmin(admin.ModelAdmin):
 class CompanySupplierSpendAdmin(admin.ModelAdmin):
     list_display = ('company', 'supplier', 'spend')
     list_filter = ('supplier',)
-    search_fields = ('company', 'supplier')
+    search_fields = ('company__name', 'supplier__name')
     ordering = ('company',)
 
 class EDADesignFlowAdmin(admin.ModelAdmin):
@@ -46,11 +46,12 @@ class SemiconductorFPGAPlatformAdmin(admin.ModelAdmin):
 
 class CompanyOfficeAdmin(admin.ModelAdmin):
     list_display = ('company', 'street_address', 'city', 'state_province', 'postal_code', 'country')
-    search_fields = ('company', 'city', 'state_province', 'postal_code', 'country')
+    search_fields = ('company__name', 'city__name', 'state_province', 'postal_code', 'country__name')
     ordering = ('company',)
 
 class ContactAdmin(admin.ModelAdmin):
     list_display = ('last_name','first_name', 'job_title', 'email', 'company', 'company_office')
+    list_filter = ('company__name', 'first_name', 'company_office__city__name')
     search_fields = ('last_name', 'first_name', 'email', 'company__name', 'company_office__city__name')
     ordering = ('company', 'last_name',)
 
