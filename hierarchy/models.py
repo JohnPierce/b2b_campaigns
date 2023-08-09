@@ -9,7 +9,7 @@ class CompanyGroupHierarchy(models.Model):
     company = models.ForeignKey(Company, on_delete=models.PROTECT)
     company_group = models.OneToOneField(CompanyGroup, on_delete=models.PROTECT)
     parent = models.ForeignKey('self', on_delete=models.SET_NULL, blank=True, null=True)
-    confidence = models.DecimalField(max_digits=3, decimal_places=2, choices=CONFIDENCE_CHOICES, default=0.5)
+    confidence = models.DecimalField(max_digits=2, decimal_places=1, choices=CONFIDENCE_CHOICES, default=0.5)
     total_confidence = models.DecimalField(max_digits=3, decimal_places=2, default=0.5, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -24,7 +24,7 @@ class CompanyGroupHierarchy(models.Model):
         if self.parent:
             return f'{self.parent.get_full_name()} -> {self.company_group.name}'
         else:
-            return self.company_group.name
+            return f'{self.company.name} -> {self.company_group.name}'
 
     def __str__(self):
         return self.get_full_name()
@@ -34,7 +34,7 @@ class EmployeeHierarchy(models.Model):
     company = models.ForeignKey(Company, on_delete=models.PROTECT)
     employee = models.OneToOneField(Contact, on_delete=models.PROTECT)
     parent = models.ForeignKey('self', on_delete=models.SET_NULL, blank=True, null=True)
-    confidence = models.DecimalField(max_digits=3, decimal_places=2, choices=CONFIDENCE_CHOICES, default=0.5)
+    confidence = models.DecimalField(max_digits=2, decimal_places=1, choices=CONFIDENCE_CHOICES, default=0.5)
     total_confidence = models.DecimalField(max_digits=3, decimal_places=2, default=0.5, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -44,7 +44,7 @@ class EmployeeHierarchy(models.Model):
         else:
             self.total_confidence = self.confidence
         super(EmployeeHierarchy, self).save(*args, **kwargs)
-        
+
     def get_full_hierarchy(self):
         if self.parent:
             return f'{self.parent.get_full_hierarchy()} -> {self.employee.first_name} {self.employee.last_name}'

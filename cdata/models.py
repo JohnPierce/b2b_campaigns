@@ -46,7 +46,7 @@ class City(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name
+        return f'{self.name} {self.country}'
 
 
 class CompanyOffice(models.Model):
@@ -105,18 +105,22 @@ class EDADesignFlowSubCategory(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name
-    
+        return f'{self.eda_design_flow.name} -> {self.name}'
+
+
 class EDASupplierTools(models.Model):
     name = models.CharField(max_length=200)
     supplier = models.ForeignKey(Supplier, on_delete=models.CASCADE)
     eda_design_flow = models.ForeignKey(EDADesignFlow, on_delete=models.SET_NULL, blank=True, null=True)
     eda_design_flow_sub_category = models.ForeignKey(EDADesignFlowSubCategory, on_delete=models.SET_NULL, blank=True, null=True)
-    product_website = models.URLField(max_length=200)
-    meta_data = models.TextField()
-    description = models.TextField()
-    competitive_positioning = models.TextField()
+    product_website = models.URLField(max_length=200, blank=True, null=True)
+    meta_data = models.TextField(blank=True, null=True)
+    description = models.TextField(blank=True, null=True)
+    competitive_positioning = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'{self.supplier.name} -> {self.name}'
     
 
 
@@ -141,10 +145,14 @@ class Contact(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     company = models.ForeignKey(Company, on_delete=models.PROTECT, blank=True, null=True)
     company_office = models.ForeignKey(CompanyOffice, on_delete=models.PROTECT, blank=True, null=True)
+    company_group = models.ForeignKey('CompanyGroup', on_delete=models.SET_NULL, blank=True, null=True)
     job_title = models.CharField(max_length=50, blank=True, null=True)
     linkedin_url = models.URLField(max_length=200, blank=True, null=True)
     twitter_url = models.URLField(max_length=200, blank=True, null=True)
     company_url_ref = models.URLField(max_length=200, blank=True, null=True)
+    patent_url_ref = models.URLField(max_length=200, blank=True, null=True)
+    personal_url_ref = models.URLField(max_length=200, blank=True, null=True)
+
 
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
@@ -152,14 +160,12 @@ class Contact(models.Model):
 class CompanyGroup(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
+    company = models.ForeignKey(Company, on_delete=models.PROTECT, blank=True, null=True)
     function = models.CharField(max_length=100, blank=True, null=True)
-    #hierarchy = models.ForeignKey(Hierarchy, on_delete=models.SET_NULL, blank=True, null=True)
-    eda_design_flows = models.ManyToManyField(EDADesignFlow, blank=True)
-    eda_tools_primary = models.ManyToManyField(EDASupplierTools, blank=True, related_name='eda_tools_primary')
-    eda_tools_secondary = models.ManyToManyField(EDASupplierTools, blank=True, related_name='eda_tools_secondary')
-    eda_tools_tertiary = models.ManyToManyField(EDASupplierTools, blank=True, related_name='eda_tools_tertiary')
+    group_headquarters = models.ForeignKey(CompanyOffice, on_delete=models.PROTECT, blank=True, null=True)  
+    product_url_ref = models.URLField(max_length=200, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.hierarchy.get_full_name() if self.hierarchy else self.name
+        return f'{self.company.name} -> {self.name}'

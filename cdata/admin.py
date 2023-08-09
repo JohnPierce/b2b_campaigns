@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.models import Group
 from .models import Company, Supplier, CompanySupplierSpend, EDADesignFlow, SemiconductorFPGAPlatform  # new
-from .models import Country, City, CompanyOffice, Contact
+from .models import Country, City, CompanyOffice, Contact, EDADesignFlowSubCategory, EDASupplierTools, CompanyGroup
 from import_export.admin import ImportExportModelAdmin
 
 
@@ -47,13 +47,42 @@ class SemiconductorFPGAPlatformAdmin(admin.ModelAdmin):
 class CompanyOfficeAdmin(admin.ModelAdmin):
     list_display = ('company', 'street_address', 'city', 'state_province', 'postal_code', 'country')
     search_fields = ('company__name', 'city__name', 'state_province', 'postal_code', 'country__name')
+    list_filter = ('company',)
     ordering = ('company',)
 
+class CompanyGroupAdmin(admin.ModelAdmin):
+    list_display = ('get_compgroup_name', 'function', 'product_url_ref')
+    search_fields = ('name', 'function', 'product_url_ref')
+    list_filter = ('company',)
+    ordering = ('company', 'name')
+
+    def get_compgroup_name(self, obj):
+        return f'{obj.company.name} -> {obj.name}'
+
 class ContactAdmin(admin.ModelAdmin):
-    list_display = ('last_name','first_name', 'job_title', 'email', 'company', 'company_office')
+    list_display = ('last_name','first_name', 'job_title', 'email', 'company', 'company_office', 'company_group')
     list_filter = ('company__name', 'first_name', 'company_office__city__name')
     search_fields = ('last_name', 'first_name', 'email', 'company__name', 'company_office__city__name')
     ordering = ('company', 'last_name',)
+
+class EDADesignFlowSubCategoryAdmin(admin.ModelAdmin):
+    list_display = ('name', 'eda_design_flow', 'description')
+    list_filter = ('eda_design_flow__name',)
+    search_fields = ('name', 'eda_design_flow__name', 'description')
+    ordering = ('eda_design_flow', 'name',)
+
+class EDASupplierToolsAdmin(admin.ModelAdmin):
+    list_display = ('get_supplier_name', 'get_eda_design_flow_name', 'name', 'product_website', 'competitive_positioning')
+    list_filter = ('eda_design_flow__name', 'eda_design_flow_sub_category__name')
+    search_fields = ('name', 'eda_design_flow__name', 'eda_design_flow_sub_category__name')
+    ordering = ('eda_design_flow__name', 'supplier', 'name',)
+
+    def get_supplier_name(self, obj):
+        return obj.supplier.name
+    def get_eda_design_flow_name(self, obj):
+        return obj.eda_design_flow.name
+
+
 
 
 
@@ -67,3 +96,7 @@ admin.site.register(EDADesignFlow, EDADesignFlowAdmin)
 admin.site.register(SemiconductorFPGAPlatform, SemiconductorFPGAPlatformAdmin)
 admin.site.register(CompanyOffice, CompanyOfficeAdmin)
 admin.site.register(Contact, ContactAdmin)
+admin.site.register(EDADesignFlowSubCategory, EDADesignFlowSubCategoryAdmin)
+admin.site.register(EDASupplierTools, EDASupplierToolsAdmin)
+admin.site.register(CompanyGroup, CompanyGroupAdmin)
+

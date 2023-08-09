@@ -17,12 +17,28 @@ from django.contrib import admin
 from django.urls import path, include # new
 from django.conf import settings
 from django.conf.urls.static import static
+from rest_framework.routers import DefaultRouter
+from cdata import views
+#from . import views as project_views  # Import views from your project for debugging
+
+
+
+router = DefaultRouter()
+router.register(r'contacts', views.ContactViewSet)
+router.register(r'companies', views.CompanyViewSet )
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include(router.urls)), # new
+    #path('print-router-urls/', project_views.print_router_urls),  # for debugging
     path('cdata/', include('cdata.urls')), # new
+    #path('hierarchy/', include('hierarchy.urls')), # new, need to define urls and views
+    #path('design_flow/', include('design_flow.urls')), # new, need to define urls and views
+    #path('follow/', include('follow.urls')), # new, need to define urls and views
     path('', include('django.contrib.auth.urls')), # new
+
+ 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # new
 
 admin.site.site_header = "B2B Campaigns Admin"

@@ -9,7 +9,12 @@ from django.urls import reverse_lazy
 from django.contrib import messages
 from django.db.models import Q
 from django.shortcuts import render
-from .models import Company
+from .models import Company, Contact
+from rest_framework import viewsets
+from .serializers import ContactSerializer, CompanySerializer
+
+
+
 
 
 # Create your views here.
@@ -26,6 +31,14 @@ class HomePageView(LoginRequiredMixin, ListView):
 
     def get_queryset(self):
         return Company.objects.all()
+
+class ContactViewSet(viewsets.ModelViewSet):
+    queryset = Contact.objects.all().order_by('first_name')
+    serializer_class = ContactSerializer
+
+class CompanyViewSet(viewsets.ModelViewSet):
+    queryset = Company.objects.all().order_by('name')
+    serializer_class = CompanySerializer
     
 @login_required
 def search(request):

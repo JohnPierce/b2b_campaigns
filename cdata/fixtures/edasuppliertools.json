@@ -1,0 +1,2888 @@
+[
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 1,
+        "fields": {
+            "name": "VSO.ai",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 6,
+            "product_website": "https://www.synopsys.com/ai/chip-design/vso-ai.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621755"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 2,
+        "fields": {
+            "name": "Verisium AI Driven Verification",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 6,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/ai-driven-verification.html",
+            "meta_data": "Testbench, RTL, Gate, Emulation, Protyping, Mixed Signal, Low Power, Embedded Software",
+            "created_at": "2023-07-21T20:28:14.621792"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 3,
+        "fields": {
+            "name": "AFS",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 79,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/analog-fastspice/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621809"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 4,
+        "fields": {
+            "name": "AFS",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 31,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/analog-fastspice/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621821"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 5,
+        "fields": {
+            "name": "Aprisa",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 70,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/aprisa/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621831"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 6,
+        "fields": {
+            "name": "Aprisa",
+            "eda_design_flow": 5,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 60,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/aprisa/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621839"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 7,
+        "fields": {
+            "name": "Aprisa",
+            "eda_design_flow": 5,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 63,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/aprisa/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621847"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 8,
+        "fields": {
+            "name": "Aprisa",
+            "eda_design_flow": 5,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 59,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/aprisa/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621858"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 9,
+        "fields": {
+            "name": "Safety Scope",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 35,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/verification-and-validation/functional-safety/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621876"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 10,
+        "fields": {
+            "name": "Safety Scope",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 34,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/verification-and-validation/functional-safety/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621885"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 11,
+        "fields": {
+            "name": "Calibre xRC",
+            "eda_design_flow": 17,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 30,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/xrc/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621894"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 12,
+        "fields": {
+            "name": "Mask Data Preparation",
+            "eda_design_flow": 20,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 45,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-manufacturing/mask-data-preparation/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621902"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 13,
+        "fields": {
+            "name": "Mask Process Correction",
+            "eda_design_flow": 20,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 10,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-manufacturing/computational-lithography/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621910"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 14,
+        "fields": {
+            "name": "Tape-Out Operations",
+            "eda_design_flow": 20,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 45,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-manufacturing/tapeout/ ",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621917"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 15,
+        "fields": {
+            "name": "Fab Solutions",
+            "eda_design_flow": 20,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 10,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-manufacturing/fab-solutions/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621924"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 16,
+        "fields": {
+            "name": "Curvilinear Solutions",
+            "eda_design_flow": 20,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 11,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-manufacturing/curvilinear-data-preparation/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621932"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 17,
+        "fields": {
+            "name": "Computational Lithography",
+            "eda_design_flow": 20,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 45,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-manufacturing/computational-lithography/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621940"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 18,
+        "fields": {
+            "name": "Calibre nmDRC",
+            "eda_design_flow": 7,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 22,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-design/physical-verification/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621947"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 19,
+        "fields": {
+            "name": "Calibre Circuit Verification",
+            "eda_design_flow": 7,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 44,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621955"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 20,
+        "fields": {
+            "name": "Calibre PERC",
+            "eda_design_flow": 7,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 57,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-design/reliability-verification/perc/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621963"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 21,
+        "fields": {
+            "name": "Calibre nmDRC",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 58,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-design/physical-verification/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621971"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 22,
+        "fields": {
+            "name": "Calibre Circuit Verification",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 24,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-design/circuit-verification/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621978"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 23,
+        "fields": {
+            "name": "Calibre PERC",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 25,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/calibre-design/reliability-verification/perc/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621986"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 24,
+        "fields": {
+            "name": "OrbitIO Interconnect Designer",
+            "eda_design_flow": 18,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 48,
+            "product_website": "https://www.cadence.com/en_US/home/tools/ic-package-design-and-analysis/cross-platform-co-design-and-analysis/orbitio-interconnect-designer.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.621994"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 25,
+        "fields": {
+            "name": "Custom Compiler",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 73,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622002"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 26,
+        "fields": {
+            "name": "Custom Compiler",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 12,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622009"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 27,
+        "fields": {
+            "name": "Virtuoso ADE Suite",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 46,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-ade-suite.html#",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622058"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 28,
+        "fields": {
+            "name": "Virtuoso RF",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 68,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/custom-ic-analog-rf-flows/virtuoso-rf-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622081"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 29,
+        "fields": {
+            "name": "Spectre AMS Designer",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 8,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-ams-designer.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622096"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 30,
+        "fields": {
+            "name": "Liberate Trie Characterization Suite",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 42,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/library-characterization/liberate-trio-characterization-suite.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622111"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 31,
+        "fields": {
+            "name": "Virtuoso Schematic Editor",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 73,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-schematic-editor.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622123"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 32,
+        "fields": {
+            "name": "Virtuoso Layout Suite",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 12,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622155"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 33,
+        "fields": {
+            "name": "Spectre X Simulator",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 79,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-x-simulator.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622168"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 34,
+        "fields": {
+            "name": "Spectre FX Simulator",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 31,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-fx-simulator.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622179"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 35,
+        "fields": {
+            "name": "Tanner S-Edit",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 73,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/ic-custom/ams/design/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622249"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 36,
+        "fields": {
+            "name": "Tanner L-Edit",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 12,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/ic-custom/ams/l-edit-ic/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622267"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 37,
+        "fields": {
+            "name": "Verisium Debug",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 13,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/ai-driven-verification/verisium-debug.html",
+            "meta_data": "Testbench, RTL, Gate, Emulation, Protyping, Mixed Signal, Low Power, Embedded Software",
+            "created_at": "2023-07-21T20:28:14.622279"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 38,
+        "fields": {
+            "name": "Verdi",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 90,
+            "product_website": "https://www.synopsys.com/verification/debug.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622287"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 39,
+        "fields": {
+            "name": "IC Compiler II",
+            "eda_design_flow": 5,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 59,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-implementation/ic-compiler.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622295"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 40,
+        "fields": {
+            "name": "RedHawk Analysis Fusion",
+            "eda_design_flow": 5,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 63,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622303"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 41,
+        "fields": {
+            "name": "Allegro PCB Symphony Team Design Option",
+            "eda_design_flow": 10,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 51,
+            "product_website": "https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/pcb-layout/allegro-pcb-designer/allegro-pcb-symphony-team-design-option.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622311"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 42,
+        "fields": {
+            "name": "Ethernet SerDes",
+            "eda_design_flow": 11,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 74,
+            "product_website": "https://www.cadence.com/en_US/home/tools/ip/design-ip/interface-ip/ethernet/ethernet-serdes.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622320"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 43,
+        "fields": {
+            "name": "Interface IP",
+            "eda_design_flow": 12,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 39,
+            "product_website": "https://www.cadence.com/en_US/home/tools/ip/design-ip/interface-ip.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622328"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 44,
+        "fields": {
+            "name": "High-Speed SerDes IP",
+            "eda_design_flow": 11,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 74,
+            "product_website": "https://www.synopsys.com/designware-ip/interface-ip/serdes-phy-ip.html?cmp=sem_ip_hhs20_ga_txt_031422_agserdes_hss_us",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622336"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 45,
+        "fields": {
+            "name": "Interface IP",
+            "eda_design_flow": 12,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 39,
+            "product_website": "https://www.synopsys.com/designware-ip/interface-ip.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622343"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 46,
+        "fields": {
+            "name": "Foundation IP",
+            "eda_design_flow": 12,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 33,
+            "product_website": "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622359"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 47,
+        "fields": {
+            "name": "Processor Solutions",
+            "eda_design_flow": 12,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 65,
+            "product_website": "https://www.synopsys.com/designware-ip/processor-solutions.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622402"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 48,
+        "fields": {
+            "name": "Joules RTL Design Studio",
+            "eda_design_flow": 2,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 70,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/rtl-analysis/joules-rtl-design-studio.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622412"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 49,
+        "fields": {
+            "name": "Joules RTL Power Solution",
+            "eda_design_flow": 2,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 71,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/power-analysis/joules-rtl-power-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622421"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 50,
+        "fields": {
+            "name": "Joules RTL Power Solution",
+            "eda_design_flow": 2,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 36,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/power-analysis/joules-rtl-power-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622429"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 51,
+        "fields": {
+            "name": "Quantus Extraction Solution",
+            "eda_design_flow": 17,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 30,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/quantus-extraction-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622437"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 52,
+        "fields": {
+            "name": "Tempus Timing Solution",
+            "eda_design_flow": 17,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 87,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/tempus-timing-signoff-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622486"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 53,
+        "fields": {
+            "name": "Joules RTL Power Solution",
+            "eda_design_flow": 17,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 61,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/power-analysis/joules-rtl-power-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622538"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 54,
+        "fields": {
+            "name": "Voltus IC Power Integrity Solution",
+            "eda_design_flow": 17,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 40,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/voltus-ic-power-integrity-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622557"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 55,
+        "fields": {
+            "name": "Voltus IC Power Integrity Solution",
+            "eda_design_flow": 17,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 26,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/voltus-ic-power-integrity-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622572"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 56,
+        "fields": {
+            "name": "Mask Compose",
+            "eda_design_flow": 20,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 45,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/maskcompose-reticle-and-wafer-synthesis-suite.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622586"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 57,
+        "fields": {
+            "name": "Process Proximity Compensation - DFM OPC",
+            "eda_design_flow": 20,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 10,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/process-proximity-compensation.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622601"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 58,
+        "fields": {
+            "name": "Voltus-FI Custom Power Integrity Solution",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 27,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/voltus-fi-custom-power-integrity-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622615"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 59,
+        "fields": {
+            "name": "Pegasus Verification System",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 58,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622630"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 60,
+        "fields": {
+            "name": "Pegasus Verification System",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 24,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622644"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 61,
+        "fields": {
+            "name": "Pegasus Verification System",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 25,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622658"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 62,
+        "fields": {
+            "name": "PrimeClosure",
+            "eda_design_flow": 17,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 3,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/primeclosure.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622671"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 63,
+        "fields": {
+            "name": "Clarity 3D Solver",
+            "eda_design_flow": 19,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 28,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-analysis/em-solver/clarity-3d-solver.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622685"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 64,
+        "fields": {
+            "name": "PADS PCB Design",
+            "eda_design_flow": 10,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 51,
+            "product_website": "https://eda.sw.siemens.com/en-US/pcb/pads/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622699"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 65,
+        "fields": {
+            "name": "PADS PCB Design",
+            "eda_design_flow": 10,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 52,
+            "product_website": "https://eda.sw.siemens.com/en-US/pcb/pads/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622712"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 66,
+        "fields": {
+            "name": "PartQuest",
+            "eda_design_flow": 10,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 53,
+            "product_website": "https://eda.sw.siemens.com/en-US/pcb/partquest/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622729"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 67,
+        "fields": {
+            "name": "HyperLynx PI Analysis",
+            "eda_design_flow": 10,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 76,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622743"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 68,
+        "fields": {
+            "name": "HyperLynx SI Analysis",
+            "eda_design_flow": 10,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 76,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622756"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 69,
+        "fields": {
+            "name": "Ansys HFSS",
+            "eda_design_flow": 19,
+            "supplier": 5,
+            "eda_design_flow_sub_category": 28,
+            "product_website": "https://www.ansys.com/products/electronics/ansys-hfss",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622768"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 70,
+        "fields": {
+            "name": "Ansys HFSS",
+            "eda_design_flow": 10,
+            "supplier": 5,
+            "eda_design_flow_sub_category": 76,
+            "product_website": "https://www.ansys.com/products/electronics/ansys-hfss",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622788"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 71,
+        "fields": {
+            "name": "Ansys HFSS",
+            "eda_design_flow": 21,
+            "supplier": 5,
+            "eda_design_flow_sub_category": 69,
+            "product_website": "https://www.ansys.com/products/electronics/ansys-hfss",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622801"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 72,
+        "fields": {
+            "name": "Ansys Totem/Totem-SC",
+            "eda_design_flow": 21,
+            "supplier": 5,
+            "eda_design_flow_sub_category": 27,
+            "product_website": "https://www.ansys.com/products/semiconductors/ansys-totem",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622814"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 73,
+        "fields": {
+            "name": "Protium",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 67,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/emulation-and-prototyping/protium.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622827"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 74,
+        "fields": {
+            "name": "Expedition Substrate Integrator",
+            "eda_design_flow": 18,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 48,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622839"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 75,
+        "fields": {
+            "name": "Expedition Package Designer",
+            "eda_design_flow": 18,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 49,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic-packaging/software/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622852"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 76,
+        "fields": {
+            "name": "HyperLynx SI Analysis",
+            "eda_design_flow": 18,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 50,
+            "product_website": "https://eda.sw.siemens.com/en-US/pcb/hyperlynx/signal-integrity/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622864"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 77,
+        "fields": {
+            "name": "HyperLynx Power Integrity",
+            "eda_design_flow": 18,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 50,
+            "product_website": "https://eda.sw.siemens.com/en-US/pcb/hyperlynx/power-integrity/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622877"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 78,
+        "fields": {
+            "name": "",
+            "eda_design_flow": 18,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 76,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622892"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 79,
+        "fields": {
+            "name": "HyperLynx Advanced Solvers",
+            "eda_design_flow": 19,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 28,
+            "product_website": "https://eda.sw.siemens.com/en-US/pcb/hyperlynx/3d-em/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622905"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 80,
+        "fields": {
+            "name": "Jasper C Apps",
+            "eda_design_flow": 13,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 32,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification/jasper-c-formal-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622919"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 81,
+        "fields": {
+            "name": "Jasper C Apps",
+            "eda_design_flow": 13,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 32,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification/jasper-c-formal-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622932"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 82,
+        "fields": {
+            "name": "FormalPro",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 72,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/formalpro-equivalence-checking/#",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622944"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 83,
+        "fields": {
+            "name": "Conformal ECO Designer",
+            "eda_design_flow": 2,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 23,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/functional-eco/conformal-eco-designer.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622955"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 84,
+        "fields": {
+            "name": "Digital Design and Signoff",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 41,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622966"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 85,
+        "fields": {
+            "name": "Verisium Debug",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 34,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622978"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 86,
+        "fields": {
+            "name": "Helium Studio",
+            "eda_design_flow": 15,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 56,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/helium-virtual-and-hybrid-studio.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.622998"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 87,
+        "fields": {
+            "name": "Catapult",
+            "eda_design_flow": 1,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 82,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623010"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 88,
+        "fields": {
+            "name": "Catapult Coverage",
+            "eda_design_flow": 13,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 37,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/catapult-high-level-synthesis/hls-verification/coverage/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623024"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 89,
+        "fields": {
+            "name": "Catapult Formal",
+            "eda_design_flow": 13,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 32,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/catapult-high-level-synthesis/hls-verification/formal-verification-tools/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623035"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 90,
+        "fields": {
+            "name": "SLEC System",
+            "eda_design_flow": 13,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 32,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/catapult-high-level-synthesis/hls-verification/slec/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623088"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 91,
+        "fields": {
+            "name": "Allegro Package Designer Plus",
+            "eda_design_flow": 18,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 49,
+            "product_website": "https://www.cadence.com/en_US/home/tools/ic-package-design-and-analysis/ic-package-design/allegro-package-designer.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623104"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 92,
+        "fields": {
+            "name": "Vista",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 55,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/vista-virtual-prototyping/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623117"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 93,
+        "fields": {
+            "name": "Kronos Characterizer",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 42,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/kronos-characterizer/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623129"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 94,
+        "fields": {
+            "name": "Solido Characterization Suite",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 43,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/solido/characterization/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623144"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 95,
+        "fields": {
+            "name": "Oasys-RTL",
+            "eda_design_flow": 4,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 82,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/oasys-rtl/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623155"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 96,
+        "fields": {
+            "name": "Symphony Platform",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 46,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/symphony/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623168"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 97,
+        "fields": {
+            "name": "TestMAX",
+            "eda_design_flow": 2,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 16,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623181"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 98,
+        "fields": {
+            "name": "PrimePower",
+            "eda_design_flow": 2,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 71,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/primepower.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623194"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 99,
+        "fields": {
+            "name": "Fusion Compiler",
+            "eda_design_flow": 4,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 83,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623206"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 100,
+        "fields": {
+            "name": "Formality ECO",
+            "eda_design_flow": 2,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 23,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/formality-eco.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623220"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 101,
+        "fields": {
+            "name": "Formality Equivalence Checking",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 72,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/formality-equivalence-checking.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623234"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 102,
+        "fields": {
+            "name": "PrimePower",
+            "eda_design_flow": 2,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 36,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/primepower.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623247"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 103,
+        "fields": {
+            "name": "Fusion Compiler",
+            "eda_design_flow": 5,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 60,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623260"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 104,
+        "fields": {
+            "name": "DSO.ai",
+            "eda_design_flow": 5,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 5,
+            "product_website": "https://www.synopsys.com/ai/chip-design/dso-ai.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623273"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 105,
+        "fields": {
+            "name": "StarRC",
+            "eda_design_flow": 17,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 30,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/starrc.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623285"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 106,
+        "fields": {
+            "name": "Primetime",
+            "eda_design_flow": 17,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 87,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623305"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 107,
+        "fields": {
+            "name": "NanoTime",
+            "eda_design_flow": 17,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 88,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/nanotime.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623319"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 108,
+        "fields": {
+            "name": "PrimePower",
+            "eda_design_flow": 17,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 61,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/primepower.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623332"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 109,
+        "fields": {
+            "name": "Ansys Redhawk-SC",
+            "eda_design_flow": 17,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 40,
+            "product_website": "https://www.ansys.com/products/semiconductors/ansys-redhawk-sc",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623345"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 110,
+        "fields": {
+            "name": "Ansys Redhawk-SC",
+            "eda_design_flow": 17,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 26,
+            "product_website": "https://www.ansys.com/products/semiconductors/ansys-redhawk-sc",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623360"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 111,
+        "fields": {
+            "name": "PrimeSim HSPICE",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 79,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623373"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 112,
+        "fields": {
+            "name": "PrimeSim",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 31,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/ams-simulation.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623386"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 113,
+        "fields": {
+            "name": "PrimeLIb",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 42,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/primelib.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623399"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 114,
+        "fields": {
+            "name": "IC Validator",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 58,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623413"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 115,
+        "fields": {
+            "name": "IC Validator",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 24,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623427"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 116,
+        "fields": {
+            "name": "IC Validator",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 25,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623440"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 117,
+        "fields": {
+            "name": "Tensilica IP",
+            "eda_design_flow": 12,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 65,
+            "product_website": "https://www.cadence.com/en_US/home/tools/ip/tensilica-ip.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623452"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 118,
+        "fields": {
+            "name": "Allegro PCB Librarian",
+            "eda_design_flow": 10,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 53,
+            "product_website": "https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/library-and-design-data-management/allegro-pcb-librarian.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623466"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 119,
+        "fields": {
+            "name": "Conformal Smart LEC",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 72,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/logic-equivalence-checking/conformal-smart-lec.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623480"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 120,
+        "fields": {
+            "name": "Conformal EC",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 72,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/logic-equivalence-checking/conformal-equivalence-checker.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623494"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 121,
+        "fields": {
+            "name": "Virtuoso Studio",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 1,
+            "product_website": "https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virtuoso-studio.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623508"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 122,
+        "fields": {
+            "name": "Vista",
+            "eda_design_flow": 14,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 7,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/vista-virtual-prototyping/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623521"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 123,
+        "fields": {
+            "name": "mPower Digital",
+            "eda_design_flow": 17,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 40,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/mpower/mpower-digital/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623534"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 124,
+        "fields": {
+            "name": "mPower Digital",
+            "eda_design_flow": 17,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 26,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/mpower/mpower-digital/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623547"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 125,
+        "fields": {
+            "name": "mPower Analog",
+            "eda_design_flow": 21,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 27,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/mpower/mpower-analog/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623565"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 126,
+        "fields": {
+            "name": "Allegro X AI",
+            "eda_design_flow": 10,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 4,
+            "product_website": "https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-ai.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623578"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 127,
+        "fields": {
+            "name": "Allegro PCB Symphony Team Design Option",
+            "eda_design_flow": 10,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 52,
+            "product_website": "https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/pcb-layout/allegro-pcb-designer/allegro-pcb-symphony-team-design-option.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623592"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 128,
+        "fields": {
+            "name": "IC Validator",
+            "eda_design_flow": 7,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 22,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623604"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 129,
+        "fields": {
+            "name": "IC Validator",
+            "eda_design_flow": 7,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 44,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623617"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 130,
+        "fields": {
+            "name": "Silicon Frontline",
+            "eda_design_flow": 7,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 57,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623631"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 131,
+        "fields": {
+            "name": "Perspec System Verifier",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 85,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/software-driven-verification/perspec-system-verifier.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623645"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 132,
+        "fields": {
+            "name": "PowerPro",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 71,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/powerpro/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623657"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 133,
+        "fields": {
+            "name": "Questa",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 77,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623669"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 134,
+        "fields": {
+            "name": "Questa Power-Aware Simulator",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 64,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623680"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 135,
+        "fields": {
+            "name": "Questa ADMS",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 47,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623692"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 136,
+        "fields": {
+            "name": "ReqTracer",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 14,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/questa/simulation/reqtracer/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623703"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 137,
+        "fields": {
+            "name": "Questa Visualizer Debug",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 38,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/visualizer-debug/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623714"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 138,
+        "fields": {
+            "name": "Questa Verification IQ",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 90,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/questa/simulation/verification-iq/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623726"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 139,
+        "fields": {
+            "name": "Questa Avery Verification IP",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 89,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/questa/verification-ip/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623737"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 140,
+        "fields": {
+            "name": "Questa Formal Library",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 62,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/questa/formal-verification/assertion-library/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623748"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 141,
+        "fields": {
+            "name": "RTL Architect",
+            "eda_design_flow": 2,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 70,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/rtl-architect.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623793"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 142,
+        "fields": {
+            "name": "RTL Architect",
+            "eda_design_flow": 2,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 70,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623807"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 143,
+        "fields": {
+            "name": "Ansys PowerArtist",
+            "eda_design_flow": 2,
+            "supplier": 5,
+            "eda_design_flow_sub_category": 71,
+            "product_website": "https://www.ansys.com/products/semiconductors/ansys-powerartist",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623840"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 144,
+        "fields": {
+            "name": "Ansys RedHawk-SC",
+            "eda_design_flow": 17,
+            "supplier": 5,
+            "eda_design_flow_sub_category": 40,
+            "product_website": "https://www.ansys.com/products/semiconductors/ansys-redhawk-sc",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623864"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 145,
+        "fields": {
+            "name": "Ansys RedHawk-SC",
+            "eda_design_flow": 17,
+            "supplier": 5,
+            "eda_design_flow_sub_category": 26,
+            "product_website": "https://www.ansys.com/products/semiconductors/ansys-redhawk-sc",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623876"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 146,
+        "fields": {
+            "name": "Sigrity Advanced SI",
+            "eda_design_flow": 18,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 50,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-analysis/signal-and-power-integrity.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623885"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 147,
+        "fields": {
+            "name": "Sigrity Advanced PI",
+            "eda_design_flow": 18,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 50,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-analysis/signal-and-power-integrity.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623893"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 148,
+        "fields": {
+            "name": "Sigrity PowerSI",
+            "eda_design_flow": 10,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 76,
+            "product_website": "https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/si-pi-analysis.html#:~:text=Cadence%C2%AE%20PI%20solutions%2C%20based,Allegro%C2%AE%20PCB%20design%20solutions.",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623902"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 149,
+        "fields": {
+            "name": "IC Package Design and Analysis",
+            "eda_design_flow": 18,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 76,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623910"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 150,
+        "fields": {
+            "name": "Clarity PCB Extraction",
+            "eda_design_flow": 10,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 76,
+            "product_website": "https://www.cadence.com/en_US/home/tools/ic-package-design-and-analysis/si-pi-analysis/clarity-extraction/pcb-extraction.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623919"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 151,
+        "fields": {
+            "name": "QuickCap NX",
+            "eda_design_flow": 19,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 28,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/signoff/quickcap-nx.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623927"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 152,
+        "fields": {
+            "name": "Sentaurus",
+            "eda_design_flow": 20,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 84,
+            "product_website": "https://www.synopsys.com/silicon/tcad.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623934"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 153,
+        "fields": {
+            "name": "QuantumATK",
+            "eda_design_flow": 20,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 9,
+            "product_website": "https://www.synopsys.com/silicon/quantumatk.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623941"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 154,
+        "fields": {
+            "name": "CATS",
+            "eda_design_flow": 20,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 45,
+            "product_website": "https://www.synopsys.com/silicon/mask-data-prep/cats.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623948"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 155,
+        "fields": {
+            "name": "CATS",
+            "eda_design_flow": 20,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 10,
+            "product_website": "https://www.synopsys.com/silicon/mask-data-prep/cats.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623955"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 156,
+        "fields": {
+            "name": "Pegasus DRC",
+            "eda_design_flow": 7,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 22,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623963"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 157,
+        "fields": {
+            "name": "Pegasus LVS",
+            "eda_design_flow": 7,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 44,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus-verification-system.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623970"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 158,
+        "fields": {
+            "name": "Pegasus PERC",
+            "eda_design_flow": 7,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 57,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/silicon-signoff/pegasus_design_review_environment.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623978"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 159,
+        "fields": {
+            "name": "Flotherm",
+            "eda_design_flow": 19,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 86,
+            "product_website": "https://plm.sw.siemens.com/en-US/simcenter/fluids-thermal-simulation/flotherm/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623985"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 160,
+        "fields": {
+            "name": "Xcelium",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 77,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.623993"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 161,
+        "fields": {
+            "name": "Xcelium",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 64,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624000"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 162,
+        "fields": {
+            "name": "Incisive Functional Safety Simulator",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 35,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/incisive-functional-safety-simulator.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624044"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 163,
+        "fields": {
+            "name": "Xcelium Digital Mixed Signal App",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 47,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624063"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 164,
+        "fields": {
+            "name": "Questa Verification IQ",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 6,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/questa/simulation/verification-iq/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624078"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 165,
+        "fields": {
+            "name": "First Encounter Design Exploration and Prototyping",
+            "eda_design_flow": 2,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 70,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/first-encounter-design-exploration-and-prototyping.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624093"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 166,
+        "fields": {
+            "name": "Innovus Implementation System",
+            "eda_design_flow": 5,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 59,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/innovus-implementation-system.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624137"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 167,
+        "fields": {
+            "name": "Digital Design and Signoff",
+            "eda_design_flow": 5,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 60,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624160"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 168,
+        "fields": {
+            "name": "Cerebrus",
+            "eda_design_flow": 5,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 5,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/cerebrus-intelligent-chip-explorer.html?utm_campaign=Cerebrus_GoogleSearch_Adtxt_03_22&utm_source=Google&utm_medium=Adtxt&s_kwcid=AL!14272!3!587746534731!p!!g!!cadence%20machine%20learning&gad=1&gclid=Cj0KCQjwk96lBhDHARIsAEKO4xZOh1E1Aq6wyg3qdTjY8rl8Mmb9dEq1juLrPclxwe60hgAMYOZnnmkaAr6cEALw_wcB",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624172"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 169,
+        "fields": {
+            "name": "SoC Verification Solution",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 78,
+            "product_website": "https://www.cadence.com/en_US/home/explore/soc-verification.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624200"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 170,
+        "fields": {
+            "name": "Power Aware Verification Methodology",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 62,
+            "product_website": "https://www.cadence.com/en_US/home/solutions/low-power-solution/power-aware-verification-methodology.html",
+            "meta_data": "Testbench, RTL, Gate, Emulation, Protyping, Mixed Signal, Low Power, Embedded Software",
+            "created_at": "2023-07-21T20:28:14.624224"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 171,
+        "fields": {
+            "name": "",
+            "eda_design_flow": 13,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 32,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624238"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 172,
+        "fields": {
+            "name": "VC Formal",
+            "eda_design_flow": 13,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 32,
+            "product_website": "https://www.synopsys.com/verification/static-and-formal-verification/vc-formal/vc-formal-datapath-validation.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624252"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 173,
+        "fields": {
+            "name": "Jasper RTL Apps",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 80,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification/jasper-gold-verification-platform.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624265"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 174,
+        "fields": {
+            "name": "Design Compiler",
+            "eda_design_flow": 4,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 82,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/dc-ultra.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624280"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 175,
+        "fields": {
+            "name": "Design Compiler NXT",
+            "eda_design_flow": 4,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 82,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/design-compiler-nxt.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624293"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 176,
+        "fields": {
+            "name": "Power Compiler",
+            "eda_design_flow": 4,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 82,
+            "product_website": "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/power-compiler.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624305"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 177,
+        "fields": {
+            "name": "Stratus",
+            "eda_design_flow": 1,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 82,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/stratus-high-level-synthesis.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624318"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 178,
+        "fields": {
+            "name": "Genus",
+            "eda_design_flow": 4,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 82,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/genus-synthesis-solution.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624332"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 179,
+        "fields": {
+            "name": "EMX Planar 3D Solver",
+            "eda_design_flow": 21,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 69,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-analysis/em-solver/emx-planar-3d-simulator.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624345"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 180,
+        "fields": {
+            "name": "System Performance Analyzer",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 55,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/system-vip/system-performance-analyzer.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624358"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 181,
+        "fields": {
+            "name": "Verisium Manager",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 90,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/ai-driven-verification/verisium-manager.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624379"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 182,
+        "fields": {
+            "name": "Simulation VIP",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 89,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/verification-ip/simulation-vip.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624394"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 183,
+        "fields": {
+            "name": "Palladium Emulation",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 29,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/emulation-and-prototyping/palladium.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624407"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 184,
+        "fields": {
+            "name": "Verisium Debug",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 38,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/ai-driven-verification/verisium-debug.html",
+            "meta_data": "Testbench, RTL, Gate, Emulation, Protyping, Mixed Signal, Low Power, Embedded Software",
+            "created_at": "2023-07-21T20:28:14.624462"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 185,
+        "fields": {
+            "name": "Tessent TestKompress",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 16,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/tessent/test/testkompress/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624482"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 186,
+        "fields": {
+            "name": "Tessent Multi-die",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 21,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/tessent/test/multi-die/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624495"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 187,
+        "fields": {
+            "name": "Tessent MemoryBist",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 20,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/tessent/test/memorybist/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624507"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 188,
+        "fields": {
+            "name": "Tessent LogicBist",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 19,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/tessent/test/logicbist/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624515"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 189,
+        "fields": {
+            "name": "Tessent Ijtag",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 18,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/tessent/test/ijtag/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624522"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 190,
+        "fields": {
+            "name": "Tessent BoundaryScan",
+            "eda_design_flow": 2,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 17,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/tessent/test/boundaryscan/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624529"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 191,
+        "fields": {
+            "name": "Modus DFT",
+            "eda_design_flow": 2,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 16,
+            "product_website": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/test/modus-test.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624536"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 192,
+        "fields": {
+            "name": "Celsius Thermal Solver",
+            "eda_design_flow": 19,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 86,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-analysis/thermal-solutions.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624544"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 193,
+        "fields": {
+            "name": "Veloce Strato",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 29,
+            "product_website": "https://resources.sw.siemens.com/en-US/white-paper-the-veloce-strato-platform-unique-core-components-create-high-value?bc=eyJwYWdlIjoiMWZUaDFVaWxjaVJMZWo1MnQ1V2EyVyIsInNpdGUiOiJlZGEiLCJsb2NhbGUiOiJlbi1VUyJ9",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624553"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 194,
+        "fields": {
+            "name": "Veloce ProFPGA",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 67,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/veloce/fpga-prototyping/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624560"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 195,
+        "fields": {
+            "name": "VCS",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 77,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624567"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 196,
+        "fields": {
+            "name": "PowerReplay",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 64,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624573"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 197,
+        "fields": {
+            "name": "Testbench Quality Assurance",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 85,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624580"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 198,
+        "fields": {
+            "name": "Z01X Fault Simulation",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 35,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624587"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 199,
+        "fields": {
+            "name": "VC Z01X Fault Simulation",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 35,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624593"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 200,
+        "fields": {
+            "name": "VCS",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 47,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624600"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 201,
+        "fields": {
+            "name": "Verdi",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 13,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624611"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 202,
+        "fields": {
+            "name": "verdi Intelligent Debug Acceleration",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 2,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-idx-debug.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624622"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 203,
+        "fields": {
+            "name": "Verdi Performance Analyzer",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 55,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-performance-analyzer.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624630"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 204,
+        "fields": {
+            "name": "Verdi Advanced AMS Debug",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 46,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-advanced-ams.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624638"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 205,
+        "fields": {
+            "name": "Verdi Power-Aware Debug",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 62,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-power-aware-debug.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624645"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 206,
+        "fields": {
+            "name": "Verdi Regression Debug Automation",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 14,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-power-aware-debug.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624652"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 207,
+        "fields": {
+            "name": "Verdi HW/SW Debug",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 38,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-hw-sw-debug.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624659"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 208,
+        "fields": {
+            "name": "Verdi Protocol Analyzer",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 66,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-protocol-analyzer.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624666"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 209,
+        "fields": {
+            "name": "Verification IP",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 89,
+            "product_website": "https://www.synopsys.com/verification/verification-ip.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624673"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 210,
+        "fields": {
+            "name": "Virtual Prototyping",
+            "eda_design_flow": 13,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 91,
+            "product_website": "https://www.synopsys.com/verification/virtual-prototyping.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624681"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 211,
+        "fields": {
+            "name": "ZeBu",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 29,
+            "product_website": "https://www.synopsys.com/verification/emulation.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624688"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 212,
+        "fields": {
+            "name": "HAPS",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 67,
+            "product_website": "https://www.synopsys.com/verification/prototyping.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624695"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 213,
+        "fields": {
+            "name": "VCS AMS",
+            "eda_design_flow": 21,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 8,
+            "product_website": "https://www.synopsys.com/content/dam/synopsys/verification/datasheets/vcs-ams-ds.pdf",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624901"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 214,
+        "fields": {
+            "name": "Verisium Manager",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 14,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/ai-driven-verification/verisium-manager.html",
+            "meta_data": "Verification Planning, Specification connnection Jama Jira Doors, Python API, AI, Coverage Analysis",
+            "created_at": "2023-07-21T20:28:14.624916"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 215,
+        "fields": {
+            "name": "Verdi UPF Architect",
+            "eda_design_flow": 16,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 62,
+            "product_website": "https://www.synopsys.com/verification/debug/verdi-upf-architect.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624924"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 216,
+        "fields": {
+            "name": "Helium Virtual and Hybrid Studio",
+            "eda_design_flow": 13,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 91,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/helium-virtual-and-hybrid-studio.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624937"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 217,
+        "fields": {
+            "name": "Platform Architect",
+            "eda_design_flow": 15,
+            "supplier": 3,
+            "eda_design_flow_sub_category": 56,
+            "product_website": "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624945"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 218,
+        "fields": {
+            "name": "Vista",
+            "eda_design_flow": 15,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 56,
+            "product_website": "",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624952"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 219,
+        "fields": {
+            "name": "Vista Virtual Prototyping",
+            "eda_design_flow": 13,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 91,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/vista-virtual-prototyping/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624960"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 220,
+        "fields": {
+            "name": "Questa Visualizer",
+            "eda_design_flow": 16,
+            "supplier": 2,
+            "eda_design_flow_sub_category": 13,
+            "product_website": "https://eda.sw.siemens.com/en-US/ic/visualizer-debug/",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624973"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 221,
+        "fields": {
+            "name": "Incisive Functional Safety Simulator",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 35,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/incisive-functional-safety-simulator.html",
+            "meta_data": "",
+            "created_at": "2023-07-21T20:28:14.624984"
+        }
+    },
+    {
+        "model": "cdata.EDASupplierTools",
+        "pk": 222,
+        "fields": {
+            "name": "Verisium Debug",
+            "eda_design_flow": 16,
+            "supplier": 1,
+            "eda_design_flow_sub_category": 62,
+            "product_website": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/ai-driven-verification/verisium-debug.html#low-power",
+            "meta_data": "Testbench, RTL, Gate, Emulation, Protyping, Mixed Signal, Low Power, Embedded Software",
+            "created_at": "2023-07-21T20:28:14.625008"
+        }
+    }
+]

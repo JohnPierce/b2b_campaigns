@@ -1,4 +1,4 @@
-#!/Users/johnpierce/Projects/repos/b2b_campaigns/venv/bin/python3
+#!/Users/johnpierce/Projects/repos/b2b_campaigns/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -41,8 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # My apps
+    'rest_framework', # added for react API
+    'corsheaders', # added for react API
     'cdata',
     'hierarchy',
+    'design_flow',
+    'follow',
     'crispy_forms',
     'import_export',
 ]
@@ -55,6 +59,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # added for react API
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'b2b_campaigns.urls'
@@ -131,3 +137,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+]
