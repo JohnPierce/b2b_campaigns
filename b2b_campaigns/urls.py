@@ -18,14 +18,17 @@ from django.urls import path, include # new
 from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework.routers import DefaultRouter
-from cdata import views
+from cdata.views import ContactViewSet, CompanyViewSet
+from hierarchy.views import CompanyGroupHierarchyViewSet, EmployeeHierarchyViewSet
 #from . import views as project_views  # Import views from your project for debugging
 
 
 
 router = DefaultRouter()
-router.register(r'contacts', views.ContactViewSet)
-router.register(r'companies', views.CompanyViewSet )
+router.register(r'contacts', ContactViewSet)
+router.register(r'companies', CompanyViewSet )
+router.register(r'companygrouphierarchies', CompanyGroupHierarchyViewSet )
+router.register(r'employeehierarchies', EmployeeHierarchyViewSet )
 
 
 urlpatterns = [
