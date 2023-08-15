@@ -19,6 +19,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework.routers import DefaultRouter
 from cdata.views import ContactViewSet, CompanyViewSet
+from cdata.views import CompanyGroupViewSet, CompanyWithGroupHierarchyViewSet
+from cdata.views import CompanyWithEmployeeHierarchyViewSet
 from hierarchy.views import CompanyGroupHierarchyViewSet, EmployeeHierarchyViewSet
 #from . import views as project_views  # Import views from your project for debugging
 
@@ -29,6 +31,9 @@ router.register(r'contacts', ContactViewSet)
 router.register(r'companies', CompanyViewSet )
 router.register(r'companygrouphierarchies', CompanyGroupHierarchyViewSet )
 router.register(r'employeehierarchies', EmployeeHierarchyViewSet )
+router.register(r'companygroups', CompanyGroupViewSet )
+router.register(r'companieswithgrouphierarchies', CompanyWithGroupHierarchyViewSet, basename='companieswithgrouphierarchies')
+router.register(r'compcontemphier', CompanyWithEmployeeHierarchyViewSet, basename='compcontemphier')
 
 
 urlpatterns = [

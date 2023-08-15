@@ -20,3 +20,9 @@ class CompanySerializer(serializers.ModelSerializer):
                   'sector', 'industry', 'sub_industry',
                   'created_at', 'company_overview',
                   'company_website']
+
+class CompanyGroupSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CompanyGroup
+        fields = ['id', 'name', 'company', 'function','group_headquarters',
+                  'product_url_ref', 'description', 'created_at']
