@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'hierarchy',
     'design_flow',
     'follow',
+    'cst_sector_prdct',
     'crispy_forms',
     'import_export',
 ]

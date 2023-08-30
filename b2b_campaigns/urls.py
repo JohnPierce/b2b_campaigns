@@ -21,7 +21,10 @@ from rest_framework.routers import DefaultRouter
 from cdata.views import ContactViewSet, CompanyViewSet
 from cdata.views import CompanyGroupViewSet, CompanyWithGroupHierarchyViewSet
 from cdata.views import CompanyWithEmployeeHierarchyViewSet
+from cdata.views import CompanyOfficeLocationViewSet
+from cdata.views import CityWithCompanyViewSet, CountryWithCompanyViewSet
 from hierarchy.views import CompanyGroupHierarchyViewSet, EmployeeHierarchyViewSet
+from cst_sector_prdct.views import SectorViewSet, IndustryViewSet, VerticalMarketViewSet, ApplicationViewSet, AlgorithmViewSet
 #from . import views as project_views  # Import views from your project for debugging
 
 
@@ -34,6 +37,14 @@ router.register(r'employeehierarchies', EmployeeHierarchyViewSet )
 router.register(r'companygroups', CompanyGroupViewSet )
 router.register(r'companieswithgrouphierarchies', CompanyWithGroupHierarchyViewSet, basename='companieswithgrouphierarchies')
 router.register(r'compcontemphier', CompanyWithEmployeeHierarchyViewSet, basename='compcontemphier')
+router.register(r'companyofficelocations', CompanyOfficeLocationViewSet )
+router.register(r'citieswithcompanies', CityWithCompanyViewSet, basename='citieswithcompanies')
+router.register(r'countrieswithcompanies', CountryWithCompanyViewSet, basename='countrieswithcompanies')
+router.register(r'sectors', SectorViewSet )
+router.register(r'industries', IndustryViewSet )
+router.register(r'verticalmarkets', VerticalMarketViewSet )
+router.register(r'applications', ApplicationViewSet )
+router.register(r'algorithms', AlgorithmViewSet )
 
 
 urlpatterns = [

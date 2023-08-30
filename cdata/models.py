@@ -147,11 +147,7 @@ class Contact(models.Model):
     company_office = models.ForeignKey(CompanyOffice, on_delete=models.PROTECT, blank=True, null=True)
     company_group = models.ForeignKey('CompanyGroup', on_delete=models.SET_NULL, blank=True, null=True)
     job_title = models.CharField(max_length=50, blank=True, null=True)
-    linkedin_url = models.URLField(max_length=200, blank=True, null=True)
-    twitter_url = models.URLField(max_length=200, blank=True, null=True)
-    company_url_ref = models.URLField(max_length=200, blank=True, null=True)
-    patent_url_ref = models.URLField(max_length=200, blank=True, null=True)
-    personal_url_ref = models.URLField(max_length=200, blank=True, null=True)
+
 
 
     def __str__(self):
