@@ -9,6 +9,8 @@ from django.urls import reverse_lazy
 from django.contrib import messages
 from django.db.models import Q
 from django.shortcuts import render
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from .models import CompanyGroupHierarchy, EmployeeHierarchy
 from rest_framework import viewsets
 from .serializers import CompanyGroupHierarchySerializer, EmployeeHierarchySerializer
@@ -33,6 +35,35 @@ class CompanyGroupHierarchyViewSet(viewsets.ModelViewSet):
 class EmployeeHierarchyViewSet(viewsets.ModelViewSet):
     queryset = EmployeeHierarchy.objects.all().order_by('employee')
     serializer_class = EmployeeHierarchySerializer
+
+@api_view(['GET'])
+def org_chart(request):
+    if request.method == 'GET':
+        root_nodes = CompanyGroupHierarchy.objects.filter(parent__isnull=True)
+        chart_data = [build_hierarchy(node) for node in root_nodes]
+
+        return Response(chart_data)
+
+@api_view(['GET'])
+def org_chart_company(request, company_id):
+    if request.method == 'GET':
+        root_nodes = CompanyGroupHierarchy.objects.filter(parent__isnull=True, company=company_id)
+        chart_data = [build_hierarchy(node) for node in root_nodes]
+
+        return Response(chart_data)
+    
+def build_hierarchy(node):
+    children = []
+    for child in node.companygrouphierarchy_set.all():
+        children.append(build_hierarchy(child))
+    
+    contacts = [{"name": f"{contact.first_name} {contact.last_name}", "type": "contact"} for contact in node.company_group.contact_set.all()]
+
+    return {
+        "name": node.company_group.name,
+        "type": "group",
+        "children": children + contacts
+    }
     
 @login_required
 def search(request):

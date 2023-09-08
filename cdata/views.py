@@ -12,7 +12,7 @@ from django.shortcuts import render
 from .models import Company, Contact, CompanyOffice
 from hierarchy.models import CompanyGroupHierarchy, EmployeeHierarchy
 from rest_framework import viewsets
-from .serializers import ContactSerializer, CompanySerializer, CompanyGroupSerializer, CompanyOfficeLocationSerializer
+from .serializers import ContactSerializer, CompanySerializer, CompanyGroupSerializer, CompanyOfficeSerializer
 from .serializers import CitySerializer, CountrySerializer
 
 
@@ -64,9 +64,9 @@ class CompanyGroupViewSet(viewsets.ModelViewSet):
     queryset = CompanyGroup.objects.all().order_by('name')
     serializer_class = CompanyGroupSerializer
 
-class CompanyOfficeLocationViewSet(viewsets.ModelViewSet):
+class CompanyOfficeViewSet(viewsets.ModelViewSet):
     queryset = CompanyOffice.objects.all().order_by('company')
-    serializer_class = CompanyOfficeLocationSerializer
+    serializer_class = CompanyOfficeSerializer
 
 class CityWithCompanyViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = CitySerializer

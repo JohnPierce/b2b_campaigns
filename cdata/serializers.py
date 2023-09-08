@@ -28,12 +28,15 @@ class CompanyGroupSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'company', 'function','group_headquarters',
                   'product_url_ref', 'description', 'created_at']
 
-class CompanyOfficeLocationSerializer(serializers.ModelSerializer):
+class CompanyOfficeSerializer(serializers.ModelSerializer):
+    company_name = serializers.CharField(source='company.name', read_only=True)
+    city_name = serializers.CharField(source='city.name', read_only=True)
+    country_name = serializers.CharField(source='country.name', read_only=True) 
     class Meta:
         model = CompanyOffice
-        fields = ['id', 'company', 'street_address', 'street_address2',
-                  'city', 'state_province', 'postal_code',
-                  'country', 'created_at']
+        fields = ['id', 'company_name', 'street_address', 'street_address2',
+                  'city_name', 'state_province', 'postal_code',
+                  'country_name', 'created_at']
 
 class CitySerializer(serializers.ModelSerializer):
     class Meta:

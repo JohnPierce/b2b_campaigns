@@ -6,8 +6,14 @@ from import_export.admin import ImportExportModelAdmin
 from follow.models import SocialMedia, FollowUp
 
 
+
+class CompanyGroupInline(admin.TabularInline):
+    model = CompanyGroup
+    extra = 1
+
 # Register your models here
 class CompanyAdmin(admin.ModelAdmin):
+    inlines = [CompanyGroupInline]
     list_display = ('name', 'ticker_symbol', 'revenue', 'estimated_eda_spend', 'industry')
     list_filter = ('industry', 'revenue', 'estimated_eda_spend')
     search_fields = ('name', 'ticker_symbol', 'industry')
@@ -68,9 +74,7 @@ class FollowUpInline(admin.TabularInline):
     model = FollowUp
     extra = 1
 
-class CompanyGroupInline(admin.TabularInline):
-    model = CompanyGroup
-    extra = 1
+
 
 class ContactAdmin(admin.ModelAdmin):
     inlines = [SocialMediaInline, FollowUpInline]
