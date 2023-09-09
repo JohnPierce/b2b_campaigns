@@ -3,10 +3,17 @@ from django.contrib.auth.models import Group
 from .models import Company, Supplier, CompanySupplierSpend, EDADesignFlow, SemiconductorFPGAPlatform  # new
 from .models import Country, City, CompanyOffice, Contact, EDADesignFlowSubCategory, EDASupplierTools, CompanyGroup
 from import_export.admin import ImportExportModelAdmin
+from follow.models import SocialMedia, FollowUp
 
+
+
+class CompanyGroupInline(admin.TabularInline):
+    model = CompanyGroup
+    extra = 1
 
 # Register your models here
 class CompanyAdmin(admin.ModelAdmin):
+    inlines = [CompanyGroupInline]
     list_display = ('name', 'ticker_symbol', 'revenue', 'estimated_eda_spend', 'industry')
     list_filter = ('industry', 'revenue', 'estimated_eda_spend')
     search_fields = ('name', 'ticker_symbol', 'industry')
@@ -58,8 +65,19 @@ class CompanyGroupAdmin(admin.ModelAdmin):
 
     def get_compgroup_name(self, obj):
         return f'{obj.company.name} -> {obj.name}'
+    
+class SocialMediaInline(admin.TabularInline):
+    model = SocialMedia
+    extra = 1
+
+class FollowUpInline(admin.TabularInline):
+    model = FollowUp
+    extra = 1
+
+
 
 class ContactAdmin(admin.ModelAdmin):
+    inlines = [SocialMediaInline, FollowUpInline]
     list_display = ('last_name','first_name', 'job_title', 'email', 'company', 'company_office', 'company_group')
     list_filter = ('company__name', 'first_name', 'company_office__city__name')
     search_fields = ('last_name', 'first_name', 'email', 'company__name', 'company_office__city__name')

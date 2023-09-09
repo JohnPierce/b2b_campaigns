@@ -25,9 +25,7 @@ class CompanyGroupEDADesignFlow(models.Model):
 class CompanyGroupEDASupplierTools(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.ForeignKey(EDASupplierTools, on_delete=models.PROTECT) 
-    company = models.ForeignKey(Company, on_delete=models.PROTECT)
     company_group = models.ForeignKey(CompanyGroup, on_delete=models.PROTECT) 
-    company_group_hier = models.ForeignKey(CompanyGroupHierarchy, on_delete=models.PROTECT)
     confidence = models.DecimalField(max_digits=2, decimal_places=1, choices=CONFIDENCE_CHOICES, default=0.5)
     description = models.TextField(blank=True, null=True)
     primary = models.BooleanField(default=False)

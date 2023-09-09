@@ -18,14 +18,33 @@ from django.urls import path, include # new
 from django.conf import settings
 from django.conf.urls.static import static
 from rest_framework.routers import DefaultRouter
-from cdata import views
+from cdata.views import ContactViewSet, CompanyViewSet
+from cdata.views import CompanyGroupViewSet, CompanyWithGroupHierarchyViewSet
+from cdata.views import CompanyWithEmployeeHierarchyViewSet
+from cdata.views import CompanyOfficeViewSet
+from cdata.views import CityWithCompanyViewSet, CountryWithCompanyViewSet
+from hierarchy.views import CompanyGroupHierarchyViewSet, EmployeeHierarchyViewSet
+from cst_sector_prdct.views import SectorViewSet, IndustryViewSet, VerticalMarketViewSet, ApplicationViewSet, AlgorithmViewSet
 #from . import views as project_views  # Import views from your project for debugging
 
 
 
 router = DefaultRouter()
-router.register(r'contacts', views.ContactViewSet)
-router.register(r'companies', views.CompanyViewSet )
+router.register(r'contacts', ContactViewSet)
+router.register(r'companies', CompanyViewSet )
+router.register(r'companygrouphierarchies', CompanyGroupHierarchyViewSet )
+router.register(r'employeehierarchies', EmployeeHierarchyViewSet )
+router.register(r'companygroups', CompanyGroupViewSet )
+router.register(r'companieswithgrouphierarchies', CompanyWithGroupHierarchyViewSet, basename='companieswithgrouphierarchies')
+router.register(r'compcontemphier', CompanyWithEmployeeHierarchyViewSet, basename='compcontemphier')
+router.register(r'companyofficelocations', CompanyOfficeViewSet, basename='companyofficelocations') 
+router.register(r'citieswithcompanies', CityWithCompanyViewSet, basename='citieswithcompanies')
+router.register(r'countrieswithcompanies', CountryWithCompanyViewSet, basename='countrieswithcompanies')
+router.register(r'sectors', SectorViewSet )
+router.register(r'industries', IndustryViewSet )
+router.register(r'verticalmarkets', VerticalMarketViewSet )
+router.register(r'applications', ApplicationViewSet )
+router.register(r'algorithms', AlgorithmViewSet )
 
 
 urlpatterns = [
@@ -33,6 +52,7 @@ urlpatterns = [
     path('api/', include(router.urls)), # new
     #path('print-router-urls/', project_views.print_router_urls),  # for debugging
     path('cdata/', include('cdata.urls')), # new
+    path('hierarchy/', include('hierarchy.urls')), # new
     #path('hierarchy/', include('hierarchy.urls')), # new, need to define urls and views
     #path('design_flow/', include('design_flow.urls')), # new, need to define urls and views
     #path('follow/', include('follow.urls')), # new, need to define urls and views

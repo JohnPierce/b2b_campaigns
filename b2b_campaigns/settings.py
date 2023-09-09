@@ -40,13 +40,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions', # added for react API and specifically runserver_plus for ssl enablement
     # My apps
     'rest_framework', # added for react API
     'corsheaders', # added for react API
+    'rest_framework.authtoken', # added for react API, security
     'cdata',
     'hierarchy',
     'design_flow',
     'follow',
+    'cst_sector_prdct',
     'crispy_forms',
     'import_export',
 ]
@@ -140,4 +143,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'http://127.0.0.1:3000'
 ]
+
+# added for react API
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}
