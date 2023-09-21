@@ -1,7 +1,10 @@
 from django.urls import path
 from . import views
+
 urlpatterns = [
     path('companies/', views.company_list, name='company_list'),
+    path('get-groups-by-company/<int:company_id>/', views.get_groups_by_company, name='get_groups_by_company'),
+    path('get-office-location-by-company/<int:company_id>/', views.get_office_location_by_company, name='get_office_location_by_company'),
     #path('companies/', views.companies, name='companies'),
     #path('suppliers/', views.suppliers, name='suppliers'),
     #path('company_supplier_spend/', views.company_supplier_spend, name='company_supplier_spend'),

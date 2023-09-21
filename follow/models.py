@@ -35,6 +35,7 @@ class SocialMedia(models.Model):
 class FollowUp(models.Model):
     id = models.AutoField(primary_key=True)
     contact = models.ForeignKey(Contact, on_delete=models.CASCADE)
+    follow = models.BooleanField(default=False)
     follow_up_type = models.CharField(max_length=255)
     date = models.DateTimeField()
     notes = models.TextField(blank=True, null=True)
