@@ -6,10 +6,14 @@ from import_export.admin import ImportExportModelAdmin
 
 # Register your models here
 class CompanyGroupHierarchyAdmin(admin.ModelAdmin):
-    list_display = ('company', 'company_group', 'parent')
+    list_display = ('get_company_id', 'company', 'company_group', 'parent')
     list_filter = ('company', 'company_group', 'parent')
     search_fields = ('company', 'company_group', 'parent')
     ordering = ('company','company_group','parent')
+
+    def get_company_id(self, obj):
+        return obj.company.id
+    get_company_id.short_description = 'Company ID'
 
 class EmployeeHierarchyAdmin(admin.ModelAdmin):
     list_display = ('company', 'employee', 'parent')

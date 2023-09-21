@@ -1,7 +1,8 @@
 # serializers.py in your app directory
 
 from rest_framework import serializers
-from .models import Contact, Company, CompanyGroup, EDADesignFlow, EDASupplierTools
+from .models import Contact, Company, CompanyGroup, EDADesignFlow, EDASupplierTools, CompanyOffice
+from .models import City, Country
 
 class ContactSerializer(serializers.ModelSerializer):
     class Meta:
@@ -20,3 +21,31 @@ class CompanySerializer(serializers.ModelSerializer):
                   'sector', 'industry', 'sub_industry',
                   'created_at', 'company_overview',
                   'company_website']
+
+class CompanyGroupSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CompanyGroup
+        fields = ['id', 'name', 'company', 'function','group_headquarters',
+                  'product_url_ref', 'description', 'created_at']
+
+class CompanyOfficeSerializer(serializers.ModelSerializer):
+    company_name = serializers.CharField(source='company.name', read_only=True)
+    city_name = serializers.CharField(source='city.name', read_only=True)
+    country_name = serializers.CharField(source='country.name', read_only=True) 
+    class Meta:
+        model = CompanyOffice
+        fields = ['id', 'company_name', 'street_address', 'street_address2',
+                  'city_name', 'state_province', 'postal_code',
+                  'country_name', 'created_at']
+
+class CitySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = City
+        fields = ['id', 'name', 'country']
+
+class CountrySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Country
+        fields = ['id', 'name', 'abbreviation', 'latitude', 'longitude']
+
+

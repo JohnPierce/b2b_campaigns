@@ -147,11 +147,7 @@ class Contact(models.Model):
     company_office = models.ForeignKey(CompanyOffice, on_delete=models.PROTECT, blank=True, null=True)
     company_group = models.ForeignKey('CompanyGroup', on_delete=models.SET_NULL, blank=True, null=True)
     job_title = models.CharField(max_length=50, blank=True, null=True)
-    linkedin_url = models.URLField(max_length=200, blank=True, null=True)
-    twitter_url = models.URLField(max_length=200, blank=True, null=True)
-    company_url_ref = models.URLField(max_length=200, blank=True, null=True)
-    patent_url_ref = models.URLField(max_length=200, blank=True, null=True)
-    personal_url_ref = models.URLField(max_length=200, blank=True, null=True)
+
 
 
     def __str__(self):
@@ -166,6 +162,32 @@ class CompanyGroup(models.Model):
     product_url_ref = models.URLField(max_length=200, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+
+    def clean(self):
+        CompanyGroupHierarchy = apps.get_model('hierarchy', 'CompanyGroupHierarchy')
+    
+        if self.company is None:
+            raise ValidationError('Company cannot be null')
+    
+        try:
+            hierarchy_instance = self.companygrouphierarchy
+        except CompanyGroupHierarchy.DoesNotExist:
+            hierarchy_instance = None
+    
+        if not hierarchy_instance:
+            return
+    
+        # Add name to the query for checking duplicates
+        exists = CompanyGroupHierarchy.objects.filter(
+            company_group__name=self.name, 
+            parent=hierarchy_instance.parent
+        ).exclude(pk=hierarchy_instance.pk).exists()
+    
+        if exists:
+            raise ValidationError({
+                'name': 'A group with this name and parent already exists.'
+            })
 
     def __str__(self):
         return f'{self.company.name} -> {self.name}'

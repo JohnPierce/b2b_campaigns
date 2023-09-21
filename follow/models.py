@@ -9,7 +9,6 @@ from cdata.models import Contact, Company
 class SocialMedia(models.Model):
     id = models.AutoField(primary_key=True)
     contact = models.ForeignKey(Contact, on_delete=models.CASCADE)
-    company = models.ForeignKey(Company, on_delete=models.PROTECT, blank=True, null=True)
     twitter_handle = models.CharField(max_length=255, blank=True, null=True)
     twitter_url = models.URLField(max_length=255, blank=True, null=True)
     personal_url = models.URLField(max_length=255, blank=True, null=True)
@@ -27,16 +26,16 @@ class SocialMedia(models.Model):
 
     def __str__(self):
         if self.contact and self.following:
-            return f'following {self.contact.name}'
+            return f'following {self.contact}'
         elif self.contact:
-            return f'not following {self.contact.name}'
+            return f'not following {self.contact}'
         else:
             return "No Contact"
 
 class FollowUp(models.Model):
     id = models.AutoField(primary_key=True)
     contact = models.ForeignKey(Contact, on_delete=models.CASCADE)
-    company = models.ForeignKey(Company, on_delete=models.PROTECT, blank=True, null=True)
+    follow = models.BooleanField(default=False)
     follow_up_type = models.CharField(max_length=255)
     date = models.DateTimeField()
     notes = models.TextField(blank=True, null=True)
