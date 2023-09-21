@@ -4,12 +4,37 @@ from .models import Company, Supplier, CompanySupplierSpend, EDADesignFlow, Semi
 from .models import Country, City, CompanyOffice, Contact, EDADesignFlowSubCategory, EDASupplierTools, CompanyGroup
 from import_export.admin import ImportExportModelAdmin
 from follow.models import SocialMedia, FollowUp
+from hierarchy.models import CompanyGroupHierarchy
+from design_flow.models import CompanyGroupEDADesignFlow, CompanyGroupEDASupplierTools
 
 
+
+class CompanyGroupHierarchyInline(admin.TabularInline):
+    model = CompanyGroupHierarchy
+    extra = 1
 
 class CompanyGroupInline(admin.TabularInline):
     model = CompanyGroup
     extra = 1
+
+class CompanyGroupSupplierToolsInline(admin.TabularInline):
+    model = CompanyGroupEDASupplierTools
+    extra = 1
+
+
+class CompanyGroupEDADesignFlowInline(admin.TabularInline):
+   inlines = [CompanyGroupSupplierToolsInline]
+   model = CompanyGroupEDADesignFlow
+   extra = 1
+
+#class CompanyGroupEDASupplierToolsInline(admin.TabularInline):
+#    model = CompanyGroupEDASupplierTools
+#   extra = 1
+
+#class EDASupplierToolsInline(admin.TabularInline):
+#    model = EDASupplierTools
+#    extra = 1
+
 
 # Register your models here
 class CompanyAdmin(admin.ModelAdmin):
@@ -42,6 +67,7 @@ class CompanySupplierSpendAdmin(admin.ModelAdmin):
     ordering = ('company',)
 
 class EDADesignFlowAdmin(admin.ModelAdmin):
+#    inlines = [EDASupplierToolsInline]
     list_display = ('name', 'description')
     search_fields = ('name', 'description')
     ordering = ('name',)
@@ -58,6 +84,9 @@ class CompanyOfficeAdmin(admin.ModelAdmin):
     ordering = ('company',)
 
 class CompanyGroupAdmin(admin.ModelAdmin):
+    inlines = [CompanyGroupHierarchyInline, CompanyGroupEDADesignFlowInline]
+    #inlines = [CompanyGroupHierarchyInline]
+    change_form_template = 'admin/cdata/companygroup/change_form.html'
     list_display = ('get_compgroup_name', 'function', 'product_url_ref')
     search_fields = ('name', 'function', 'product_url_ref')
     list_filter = ('company',)
@@ -65,6 +94,9 @@ class CompanyGroupAdmin(admin.ModelAdmin):
 
     def get_compgroup_name(self, obj):
         return f'{obj.company.name} -> {obj.name}'
+    
+    def save_related(self, request, form, formsets, change):
+        super().save_related(request, form, formsets, change)
     
 class SocialMediaInline(admin.TabularInline):
     model = SocialMedia
@@ -78,6 +110,7 @@ class FollowUpInline(admin.TabularInline):
 
 class ContactAdmin(admin.ModelAdmin):
     inlines = [SocialMediaInline, FollowUpInline]
+    change_form_template = 'admin/cdata/contacts/change_form.html'
     list_display = ('last_name','first_name', 'job_title', 'email', 'company', 'company_office', 'company_group')
     list_filter = ('company__name', 'first_name', 'company_office__city__name')
     search_fields = ('last_name', 'first_name', 'email', 'company__name', 'company_office__city__name')

@@ -20,10 +20,10 @@ class SocialMediaAdmin(admin.ModelAdmin):
     associated_company.short_description = 'Company'
 
 class FollowUpAdmin(admin.ModelAdmin):
-    list_display = ('contact', 'associated_company', 'follow_up_type', 'date', 'notes')
-    list_filter = ('follow_up_type', 'date', 'notes')
-    search_fields = ('contact', 'associated_company', 'follow_up_type', 'date', 'notes')
-    ordering = ('contact', 'follow_up_type', 'date', 'notes')
+    list_display = ('contact', 'associated_company','follow', 'follow_up_type', 'date', 'notes')
+    list_filter = ('follow', 'follow_up_type', 'date', 'notes')
+    search_fields = ('contact', 'associated_company','follow', 'follow_up_type', 'date', 'notes')
+    ordering = ('contact', 'follow', 'follow_up_type', 'date', 'notes')
 
     def associated_company(self, obj):
         return obj.contact.company

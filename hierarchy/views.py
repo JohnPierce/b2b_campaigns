@@ -9,6 +9,7 @@ from django.urls import reverse_lazy
 from django.contrib import messages
 from django.db.models import Q
 from django.shortcuts import render
+from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .models import CompanyGroupHierarchy, EmployeeHierarchy
@@ -27,6 +28,10 @@ def company_group_hierarchy_list(request):
     company_hierarchy = CompanyGroupHierarchy.objects.all()  # Get all Company objects from the database
     return render(request, 'hierarchy/company_hierarchy_list.html', {'company_hierarchy': company_hierarchy})
 
+def get_hier_groups_by_company(request, company_id):
+    groups = CompanyGroupHierarchy.objects.filter(company__id=company_id)
+    data = [{"id": group.id, "name": f'{group.company} {group.company_group}'} for group in groups]
+    return JsonResponse(data, safe=False)
 
 class CompanyGroupHierarchyViewSet(viewsets.ModelViewSet):
     queryset = CompanyGroupHierarchy.objects.all().order_by('company')

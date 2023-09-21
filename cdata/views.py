@@ -11,6 +11,8 @@ from django.db.models import Q
 from django.shortcuts import render
 from .models import Company, Contact, CompanyOffice
 from hierarchy.models import CompanyGroupHierarchy, EmployeeHierarchy
+from django.http import JsonResponse
+from .models import Company, Contact
 from rest_framework import viewsets
 from .serializers import ContactSerializer, CompanySerializer, CompanyGroupSerializer, CompanyOfficeSerializer
 from .serializers import CitySerializer, CountrySerializer
@@ -25,6 +27,16 @@ from .serializers import CitySerializer, CountrySerializer
 def company_list(request):
     companies = Company.objects.all()  # Get all Company objects from the database
     return render(request, 'cdata/company_list.html', {'companies': companies})
+
+def get_groups_by_company(request, company_id):
+    groups = CompanyGroup.objects.filter(company__id=company_id)
+    data = [{"id": group.id, "name": group.name} for group in groups]
+    return JsonResponse(data, safe=False)
+
+def get_office_location_by_company(request, company_id):
+    offices = CompanyOffice.objects.filter(company__id=company_id)
+    data = [{"id": office.id, "name": f'{office.company} {office.city}'} for office in offices]
+    return JsonResponse(data, safe=False)
 
 class HomePageView(LoginRequiredMixin, ListView):
     model = Contact

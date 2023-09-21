@@ -163,5 +163,31 @@ class CompanyGroup(models.Model):
     description = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+
+    def clean(self):
+        CompanyGroupHierarchy = apps.get_model('hierarchy', 'CompanyGroupHierarchy')
+    
+        if self.company is None:
+            raise ValidationError('Company cannot be null')
+    
+        try:
+            hierarchy_instance = self.companygrouphierarchy
+        except CompanyGroupHierarchy.DoesNotExist:
+            hierarchy_instance = None
+    
+        if not hierarchy_instance:
+            return
+    
+        # Add name to the query for checking duplicates
+        exists = CompanyGroupHierarchy.objects.filter(
+            company_group__name=self.name, 
+            parent=hierarchy_instance.parent
+        ).exclude(pk=hierarchy_instance.pk).exists()
+    
+        if exists:
+            raise ValidationError({
+                'name': 'A group with this name and parent already exists.'
+            })
+
     def __str__(self):
         return f'{self.company.name} -> {self.name}'

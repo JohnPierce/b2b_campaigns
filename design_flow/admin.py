@@ -7,14 +7,12 @@ from hierarchy.models import CompanyGroupHierarchy
 from import_export.admin import ImportExportModelAdmin
 
 
-class CompanyGroupHierarchy(admin.TabularInline):
-    model = CompanyGroupHierarchy
-    extra = 1
+
 
 # Register your models here
 class CompanyGroupEDADesignFlowAdmin(admin.ModelAdmin):
     list_display = ('get_comp_name', 'company_group', 'name')
-    list_filter = ('company__name', 'company_group', 'name')
+    list_filter = ('company_group', 'name')
     search_fields = ('company_group', 'name')
     ordering = ('company_group','name')
 
