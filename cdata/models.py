@@ -2,6 +2,7 @@ from django.db import models
 from django.apps import apps
 from django.core.exceptions import ValidationError
 from django.utils import timezone
+from treebeard.mp_tree import MP_Node
 
 # Create your models here.
 class Company(models.Model):
@@ -76,6 +77,9 @@ class Supplier(models.Model):
     company_overview = models.TextField(blank=True, null=True)
     company_website = models.CharField(max_length=100, blank=True, null=True)
 
+    def __str__(self) -> str:
+        return self.name
+
 
 class CompanySupplierSpend(models.Model):
     company = models.ForeignKey(Company, on_delete=models.CASCADE)
@@ -99,7 +103,7 @@ class EDADesignFlow(models.Model):
 
 class EDADesignFlowSubCategory(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, default='Spectre III')
     eda_design_flow = models.ForeignKey(EDADesignFlow, on_delete=models.SET_NULL, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -109,7 +113,8 @@ class EDADesignFlowSubCategory(models.Model):
 
 
 class EDASupplierTools(models.Model):
-    name = models.CharField(max_length=200)
+    #id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=200, primary_key=True)
     supplier = models.ForeignKey(Supplier, on_delete=models.CASCADE)
     eda_design_flow = models.ForeignKey(EDADesignFlow, on_delete=models.SET_NULL, blank=True, null=True)
     eda_design_flow_sub_category = models.ForeignKey(EDADesignFlowSubCategory, on_delete=models.SET_NULL, blank=True, null=True)
@@ -120,9 +125,18 @@ class EDASupplierTools(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f'{self.supplier.name} -> {self.name}'
+        return f'{self.name} {self.supplier.name}'
     
-
+class EDASupplierTool(MP_Node):
+    name = models.CharField(max_length=200)
+    supplier = models.ForeignKey(Supplier, on_delete=models.CASCADE)
+    eda_design_flow = models.ForeignKey(EDADesignFlow, on_delete=models.SET_NULL, blank=True, null=True)
+    eda_design_flow_sub_category = models.ForeignKey(EDADesignFlowSubCategory, on_delete=models.SET_NULL, blank=True, null=True)
+    product_website = models.URLField(max_length=200, blank=True, null=True)
+    meta_data = models.TextField(blank=True, null=True)
+    description = models.TextField(blank=True, null=True)
+    competitive_positioning = models.TextField(blank=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True)
 
 
 class SemiconductorFPGAPlatform(models.Model):

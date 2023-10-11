@@ -1,38 +1,46 @@
 from django.contrib import admin
 from django.contrib.auth.models import Group
-from .models import CompanyGroupEDADesignFlow
+from django import forms
 from .models import CompanyGroupEDASupplierTools
-from cdata.models import Company
-from hierarchy.models import CompanyGroupHierarchy
-from import_export.admin import ImportExportModelAdmin
+
 
 
 
 
 # Register your models here
-class CompanyGroupEDADesignFlowAdmin(admin.ModelAdmin):
-    list_display = ('get_comp_name', 'company_group', 'name')
-    list_filter = ('company_group', 'name')
-    search_fields = ('company_group', 'name')
-    ordering = ('company_group','name')
 
-    def get_comp_name(self, obj):
-        return obj.company.name
+
+class CompanyGroupEDASupplierToolsForm(forms.ModelForm):
+    """Form for CompanyGroupEDASupplierTools model."""
+
+    class Meta:
+        model = CompanyGroupEDASupplierTools
+        fields = "__all__"
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields["name"].queryset = self.fields["name"].queryset.order_by("name")
+
+
 
 class CompanyGroupEDASupplierToolsAdmin(admin.ModelAdmin):
-    list_display = ('get_comp_name', 'company_group', 'name')
-    list_filter = ('company_group', 'name')
-    search_fields = ('company_group', 'name')
-    ordering = ('company_group','name')
+    """Admin class for CompanyGroupEDASupplierTools model."""
+    
+    form = CompanyGroupEDASupplierToolsForm
+    list_display = ('name', 'get_comp_name', 'get_supplier_name', 'company_group')
+    list_filter = ('name', 'company_group',)
+    search_fields = ('name', 'company_group',)
+    ordering = ('name', 'company_group',)
 
     def get_comp_name(self, obj):
-        return obj.company.name
+        """Get company name."""
+        return obj.company_group.company.name
+    
+    def get_supplier_name(self, obj):
+        """Get supplier name."""
+        return obj.name.supplier.name
 
-
-
-
-
-
-admin.site.register(CompanyGroupEDADesignFlow, CompanyGroupEDADesignFlowAdmin)
 admin.site.register(CompanyGroupEDASupplierTools, CompanyGroupEDASupplierToolsAdmin)
+
+
 

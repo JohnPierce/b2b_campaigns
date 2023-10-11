@@ -1,21 +1,30 @@
-from django.shortcuts import render, get_object_or_404, redirect
-from .models import *
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from django.contrib.auth.forms import UserCreationForm
-from django.views.generic.edit import CreateView, UpdateView, DeleteView
-from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.decorators import login_required
-from django.urls import reverse_lazy
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Q
-from django.shortcuts import render
-from .models import Company, Contact, CompanyOffice
-from hierarchy.models import CompanyGroupHierarchy, EmployeeHierarchy
 from django.http import JsonResponse
-from .models import Company, Contact
-from rest_framework import viewsets
-from .serializers import ContactSerializer, CompanySerializer, CompanyGroupSerializer, CompanyOfficeSerializer
-from .serializers import CitySerializer, CountrySerializer
+from django.shortcuts import get_object_or_404, redirect, render
+from django.urls import reverse_lazy
+from django.views.generic import (CreateView, DeleteView, DetailView, ListView,
+                                  UpdateView)
+from hierarchy.models import CompanyGroupHierarchy, EmployeeHierarchy
+from rest_framework import generics, viewsets
+
+from .models import (Company, CompanyOffice, Contact, EDADesignFlow,
+                     EDADesignFlowSubCategory, EDASupplierTools, CompanyGroup)
+from .serializers import (CitySerializer, CompanyGroupContactSerializer,
+                          CompanyGroupSerializer, CompanyOfficeSerializer,
+                          CompanySerializer, ContactSerializer,
+                          CountrySerializer, EDASupplierToolsSerializer)
+
+import os
+import sys
+import time
+
+import requests
+import numpy as np
+import pandas as pd
 
 
 
@@ -36,6 +45,41 @@ def get_groups_by_company(request, company_id):
 def get_office_location_by_company(request, company_id):
     offices = CompanyOffice.objects.filter(company__id=company_id)
     data = [{"id": office.id, "name": f'{office.company} {office.city}'} for office in offices]
+    return JsonResponse(data, safe=False)
+
+def get_edadesignflowsubcategory_by_edadesignflow(request, edadesignflow_id):
+    edadesignflowsubcategories = EDADesignFlowSubCategory.objects.filter(eda_design_flow__id=edadesignflow_id)
+    data = [{"id": edadesignflowsubcategory.id, "name": f'{edadesignflowsubcategory.eda_design_flow.name} {edadesignflowsubcategory.name}'} for edadesignflowsubcategory in edadesignflowsubcategories]
+    return JsonResponse(data, safe=False)
+
+def get_edasuppliertools_by_edadesignflow(request, edadesignflow_id):
+    edasuppliertools = EDASupplierTools.objects.filter(eda_design_flow__id=edadesignflow_id)
+    data = [{"id": edasuppliertool.id, "name": edasuppliertool.name} for edasuppliertool in edasuppliertools]
+    return JsonResponse(data, safe=False)
+
+def get_edasuppliertools(request):
+    # Retrieve query parameters
+    eda_design_flow_id = request.GET.get('eda_design_flow_id', None)
+    subcategory_id = request.GET.get('subcategory_id', None)
+    vendor_id = request.GET.get('vendor_id', None)
+
+    # Perform filtering based on query parameters
+    queryset = EDASupplierTools.objects.all()
+    if eda_design_flow_id:
+        queryset = queryset.filter(eda_design_flow__id=eda_design_flow_id)
+        
+    if subcategory_id:
+        queryset = queryset.filter(eda_design_flow_sub_category__id=subcategory_id)
+    
+    if vendor_id:
+        queryset = queryset.filter(supplier__id=vendor_id)
+    
+    # Serialize the filtered data
+    serializer = EDASupplierToolsSerializer(queryset, many=True)
+
+    # Convert the serialized data to JSON
+    data = serializer.data
+
     return JsonResponse(data, safe=False)
 
 class HomePageView(LoginRequiredMixin, ListView):
@@ -74,7 +118,11 @@ class CompanyWithEmployeeHierarchyViewSet(viewsets.ReadOnlyModelViewSet):
 
 class CompanyGroupViewSet(viewsets.ModelViewSet):
     queryset = CompanyGroup.objects.all().order_by('name')
-    serializer_class = CompanyGroupSerializer
+    serializer_class = CompanyGroupContactSerializer
+
+class CompanyGroupContactViewSet(viewsets.ModelViewSet):
+    queryset = CompanyGroup.objects.all()
+    serializer_class = CompanyGroupContactSerializer
 
 class CompanyOfficeViewSet(viewsets.ModelViewSet):
     queryset = CompanyOffice.objects.all().order_by('company')
