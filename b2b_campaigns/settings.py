@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'cst_sector_prdct',
     'crispy_forms',
     'import_export',
+    'treebeard', # added for hierarchical capabilities
 ]
 
 MIDDLEWARE = [

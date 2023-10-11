@@ -1,11 +1,17 @@
 from django.contrib import admin
 from django.contrib.auth.models import Group
+from django import forms
 from .models import Company, Supplier, CompanySupplierSpend, EDADesignFlow, SemiconductorFPGAPlatform  # new
-from .models import Country, City, CompanyOffice, Contact, EDADesignFlowSubCategory, EDASupplierTools, CompanyGroup
+from .models import Country, City, CompanyOffice, Contact, EDADesignFlowSubCategory, EDASupplierTools, EDASupplierTool, CompanyGroup
 from import_export.admin import ImportExportModelAdmin
+from treebeard.admin import TreeAdmin
+from treebeard.forms import movenodeform_factory
 from follow.models import SocialMedia, FollowUp
 from hierarchy.models import CompanyGroupHierarchy
-from design_flow.models import CompanyGroupEDADesignFlow, CompanyGroupEDASupplierTools
+from design_flow.models import CompanyGroupEDASupplierTools
+from design_flow.models import EDASupplierTools
+from design_flow.admin import CompanyGroupEDASupplierToolsForm
+
 
 
 
@@ -17,15 +23,15 @@ class CompanyGroupInline(admin.TabularInline):
     model = CompanyGroup
     extra = 1
 
-class CompanyGroupSupplierToolsInline(admin.TabularInline):
+class CompanyGroupEDASupplierToolsInline(admin.TabularInline):
     model = CompanyGroupEDASupplierTools
+    form = CompanyGroupEDASupplierToolsForm
     extra = 1
 
 
-class CompanyGroupEDADesignFlowInline(admin.TabularInline):
-   inlines = [CompanyGroupSupplierToolsInline]
-   model = CompanyGroupEDADesignFlow
-   extra = 1
+class CompanyGroupEDADesignFlowSubCategoryInline(admin.TabularInline):  
+    model = EDADesignFlowSubCategory
+    extra = 1
 
 #class CompanyGroupEDASupplierToolsInline(admin.TabularInline):
 #    model = CompanyGroupEDASupplierTools
@@ -83,20 +89,7 @@ class CompanyOfficeAdmin(admin.ModelAdmin):
     list_filter = ('company',)
     ordering = ('company',)
 
-class CompanyGroupAdmin(admin.ModelAdmin):
-    inlines = [CompanyGroupHierarchyInline, CompanyGroupEDADesignFlowInline]
-    #inlines = [CompanyGroupHierarchyInline]
-    change_form_template = 'admin/cdata/companygroup/change_form.html'
-    list_display = ('get_compgroup_name', 'function', 'product_url_ref')
-    search_fields = ('name', 'function', 'product_url_ref')
-    list_filter = ('company',)
-    ordering = ('company', 'name')
 
-    def get_compgroup_name(self, obj):
-        return f'{obj.company.name} -> {obj.name}'
-    
-    def save_related(self, request, form, formsets, change):
-        super().save_related(request, form, formsets, change)
     
 class SocialMediaInline(admin.TabularInline):
     model = SocialMedia
@@ -133,7 +126,28 @@ class EDASupplierToolsAdmin(admin.ModelAdmin):
     def get_eda_design_flow_name(self, obj):
         return obj.eda_design_flow.name
 
+class EDASupplierToolAdmin(TreeAdmin):
+    form = movenodeform_factory(EDASupplierTool)
+    list_display = ('name', 'supplier', 'eda_design_flow', 'eda_design_flow_sub_category', 'product_website', 'competitive_positioning')
+    list_filter = ('eda_design_flow__name', 'eda_design_flow_sub_category__name')
+    search_fields = ('name', 'eda_design_flow__name', 'eda_design_flow_sub_category__name')
+    ordering = ('name', 'supplier', 'eda_design_flow__name',)
 
+class CompanyGroupAdmin(admin.ModelAdmin):
+    # Need to add the model intto design flow CompanyGroupEDADesignFlowSubCategory... 
+    inlines = [CompanyGroupHierarchyInline, CompanyGroupEDASupplierToolsInline]
+    #inlines = [CompanyGroupHierarchyInline]
+    change_form_template = 'admin/cdata/companygroup/change_form.html'
+    list_display = ('get_compgroup_name', 'function', 'product_url_ref')
+    search_fields = ('name', 'function', 'product_url_ref')
+    list_filter = ('company',)
+    ordering = ('company', 'name')
+
+    def get_compgroup_name(self, obj):
+        return f'{obj.company.name} -> {obj.name}'
+    
+    def save_related(self, request, form, formsets, change):
+        super().save_related(request, form, formsets, change)
 
 
 
@@ -150,4 +164,5 @@ admin.site.register(Contact, ContactAdmin)
 admin.site.register(EDADesignFlowSubCategory, EDADesignFlowSubCategoryAdmin)
 admin.site.register(EDASupplierTools, EDASupplierToolsAdmin)
 admin.site.register(CompanyGroup, CompanyGroupAdmin)
+admin.site.register(EDASupplierTool, EDASupplierToolAdmin)
 

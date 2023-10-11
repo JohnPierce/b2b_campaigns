@@ -23,6 +23,7 @@ from cdata.views import CompanyGroupViewSet, CompanyWithGroupHierarchyViewSet
 from cdata.views import CompanyWithEmployeeHierarchyViewSet
 from cdata.views import CompanyOfficeViewSet
 from cdata.views import CityWithCompanyViewSet, CountryWithCompanyViewSet
+from cdata.views import CompanyGroupContactViewSet
 from hierarchy.views import CompanyGroupHierarchyViewSet, EmployeeHierarchyViewSet
 from cst_sector_prdct.views import SectorViewSet, IndustryViewSet, VerticalMarketViewSet, ApplicationViewSet, AlgorithmViewSet
 #from . import views as project_views  # Import views from your project for debugging
@@ -45,6 +46,7 @@ router.register(r'industries', IndustryViewSet )
 router.register(r'verticalmarkets', VerticalMarketViewSet )
 router.register(r'applications', ApplicationViewSet )
 router.register(r'algorithms', AlgorithmViewSet )
+router.register(r'companygroupcontact', CompanyGroupContactViewSet, basename='companygroupcontact')
 
 
 urlpatterns = [

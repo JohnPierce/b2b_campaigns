@@ -10,8 +10,18 @@ class ContactSerializer(serializers.ModelSerializer):
         fields = ['id', 'first_name', 'middle_name', 'last_name',
                   'email','mobile_phone', 'office_phone', 'info',
                   'created_at',
-                  'company', 'company_office', 'job_title',
-                  'linkedin_url', 'twitter_url', 'company_url_ref']
+                  'company', 'company_office', 'job_title']
+
+class ContactBriefSerializer(serializers.ModelSerializer):
+    full_name = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Contact
+        fields = ['full_name', 'job_title']
+
+    def get_full_name(self, obj):
+        return f"{obj.first_name} {obj.last_name}"
+    
 
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:
@@ -27,6 +37,20 @@ class CompanyGroupSerializer(serializers.ModelSerializer):
         model = CompanyGroup
         fields = ['id', 'name', 'company', 'function','group_headquarters',
                   'product_url_ref', 'description', 'created_at']
+
+class CompanyGroupContactSerializer(serializers.ModelSerializer):
+    contact_set = ContactBriefSerializer(many=True, read_only=True)
+
+    class Meta:
+        model = CompanyGroup
+        fields = '__all__'
+
+    def create(self, validated_data):
+        contacts_data = validated_data.pop('contacts', [])
+        company_group = CompanyGroup.objects.create(**validated_data)
+        for contact_data in contacts_data:
+            Contact.objects.create(company_group=company_group, **contact_data)
+        return company_group
 
 class CompanyOfficeSerializer(serializers.ModelSerializer):
     company_name = serializers.CharField(source='company.name', read_only=True)
@@ -48,4 +72,9 @@ class CountrySerializer(serializers.ModelSerializer):
         model = Country
         fields = ['id', 'name', 'abbreviation', 'latitude', 'longitude']
 
+class EDASupplierToolsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = EDASupplierTools
+        fields = ['name', 'supplier', 'eda_design_flow', 'eda_design_flow_sub_category',
+                  'product_website', 'meta_data', 'description', 'competitive_positioning', 'created_at']
 
